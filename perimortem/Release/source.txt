@@ -1,0 +1,2154 @@
+"perimortem (in theoretical rigor)" by Vyshali Manivannan
+
+Part 1 - Background
+
+Chapter 1 - Interface and Mechanics
+
+Use memory economy. Use undo prevention. Use American dialect and the serial comma.
+
+Include Locksmith by Emily Short. Include Menus by Wade Clarke. Include Swearing Reloaded by Shin. 
+
+Release along with a "Perimortem" website, cover art, the source text, and an interpreter.
+
+Index map with EPS file.
+
+Section 1 - Transcript
+
+First when play begins:
+	try switching the story transcript on.
+
+Section 2 - Hit Points, Status Line
+
+The player has a number called maximum hit points. Vali has a number called maximum hit points. The player has a number called current hit points. Vali has a number called current hit points.
+
+The current hit points of the player is 15. The current hit points of Vali is 0.
+
+When play begins:
+	now the left hand status line is "You: [current hit points of player]                              [the player's surroundings]";
+	now the right hand status line is "Vali: [current hit points of Vali]";
+	now the time of day is 11:13 AM.
+	
+Chapter 2 - Formatting Abbreviations
+
+to say bk:
+	say "[bracket]"
+	
+to say cb:
+	say "[close bracket]"
+	
+to say it:
+	say "[italic type]"
+	
+to say bt:
+	say "[bold type]"
+	
+to say rt:
+	say "[roman type]"
+	
+to say lb:
+	say "[line break]"
+	
+to say nl:
+	say "[no line break]"
+
+to say pb:
+	say "[paragraph break]"
+
+Chapter 3 - Standard Rules
+
+Section 1 - Parser Error
+
+The parser error internal rule response (A) is "That doesn't make sense even to you. (Try a different command.)"
+
+The parser error internal rule response (B) is "There are better ways to convey your desire to ".
+
+The parser error internal rule response (C) is "There are better ways to convey your desire to (go) ".
+
+The parser error internal rule response (D) is "Entering the code without errors might be more effective."
+
+The parser error internal rule response (E) is "You're too busy to look for what you can't see."
+
+The parser error internal rule response (F) is "Academia doesn't tolerate poetic license. (Try completing the command.)"
+
+The parser error internal rule response (G) is "You aren't carrying that."
+
+The parser error internal rule response (H) is "Distraction is the thief of dedication. (Try using one object with that verb.)"
+
+The parser error internal rule response (I) is "[if the player is in the Minefield]It's safer to focus on demining.[otherwise]You can't use that many objects at once."
+
+The parser error internal rule response (J) is "You're not sure what the pronoun antecedent is."
+
+The parser error internal rule response (K) is "You're not sure what the pronoun is."
+
+The parser error internal rule response (L) is "No point in excepting something you weren't including in the first place."
+
+The parser error internal rule response (M) is "[if the player is in the Minefield]Since you can only do that to an animate object, you suppose this answers the question of whether this is a dissection or a vivisection.[otherwise]You can only do that to an animate object."
+
+The parser error internal rule response (N) is "Surely you can more clearly express your intended action?"
+
+The parser error internal rule response (O) is "It's beneath your notice."
+
+The parser error internal rule response (P) is "[if the player is in the Minefield]Should you really indulge the kind of ambiguity that got Vali into this situation?[otherwise]One should always aim for clarity. (Try more clearly concluding your request.)"
+
+The parser error internal rule response (S) is "To repeat a command, just say 'again (g).'"
+
+The parser error internal rule response (T) is "You know better. Academic scholarship tends to reject orthographic play."
+ 
+The parser error internal rule response (U) is "Conscious and comatose, Vali responds only to the infliction of pain, and you don't think those brute noises count as dialogue."
+
+The parser error internal rule response (V) is "There's something beautiful about how the speechlessness of an object of study motivates innovative research."
+
+The parser error internal rule response (W) is "Placing too many words before the comma makes for a top-heavy command." 
+
+The parser error internal rule response (X) is "Your silence returns to you in flurried whispers that uncannily resemble your voice."
+
+The parser nothing error internal rule response (B) is "[if the player is in the Minefield]Patience. You can't ravish her all at once. (Avoid using 'all.')[otherwise]The space is sparsely furnished. (Avoid using 'all.')"
+
+Section 2 - Unlist, Block, Can't
+
+Section 2(a) - Unlisting
+
+The block cutting rule is not listed in any rulebook.
+
+Section 2(b) - Blocking
+
+The block saying yes rule response (A) is "Is consent an option?"
+
+The block saying no rule response (A) is "Is refusal an option?"
+
+The block vaguely going rule response (A) is "[if the player is in the Minefield]The clearance route is already carved into the flesh. Best to 'continue' along the predetermined path.[otherwise]You didn't come all this way to go nowhere. (Try specifying a direction.)"
+
+The block throwing at rule response (A) is "[if the player is in the Minefield]It'd be interesting to volley your inventory into Vali's interior, but also potentially explosive.[otherwise]Throwing things around is the opposite of leaving no trace of your presence."
+
+The block attacking rule response (A) is "It isn't violence when inflicted on a research subject. It's an epistemological imperative. You're not repulsed by necessary harm."
+
+The block sleeping rule response (A) is "[if the player is in the Storage Closet]You're overtaken by an uncharacteristic exhaustion, but there's no time to sleep now.[otherwise]You hardly have time for a nap."
+
+The block waking up rule response (A) is "You're wide awake."
+
+The block drinking rule response (A) is "The autopsy table has an integrated water faucet, but you'd rather be thirsty than bring your face that close to Vali's vacant stare."
+
+The block burning rule response (A) is "[if the player is in the Minefield]In places, Vali's slick interior burns to the touch.[otherwise]You don't have time to indulge your latent pyromania."
+
+The block answering rule response (A) is "You're glad she's answering for her crimes."
+
+The block saying sorry rule response (A) is "You silently apologize to Vali for your actions, but you figure she understands. You needed to expand your expertise, and she's always been supportive."
+
+The can't pull people rule response (A) is "[if the player is in the Autopsy Room]You grab Vali's limp arm and pull her slightly towards you. Her skin squeaks across the table.[otherwise]You tug your hair in impatient frustration."
+
+The can't push people rule response (A) is "[if the player is in the Autopsy Room]You grab Vali's limp arm and push her slightly away from you. Her skin squeaks across the table.[otherwise]You push your hands together like a supplicant of the great god of theory."
+
+The can't turn people rule response (A) is "[if the player is in the Autopsy Room]While you could tun Vali over, the motion would jostle the landmines inside her and trigger an explosion.[otherwise]You twirl your pen in your hands out of nervous habit."
+
+The can't rub another person rule response (A) is "You don't denounce sexual innuendo, but for the appearance of propriety, you try to avoid it."
+
+The can't open unless openable rule response (A) is "Not everything is worth opening, even if it can be opened."
+
+The can't close unless openable rule response (A) is " For something to close, it must first be open."
+
+The can't put something on itself rule response (A) is "Some things can fold in on themselves: paper, fabric, flesh, if there's enough of it. [noun] doesn't fall into this category."
+
+The can't put onto what's not a supporter rule response (A) is "That would be tantamount to letting go of [the noun] mid-air and expecting it to float."
+
+The can't push what's fixed in place rule response (A) is "You're an intellectual, not a manual laborer."
+
+The can't push scenery rule response (A) is "You're an intellectual, not a manual laborer."
+
+The can't pull what's fixed in place rule response (A) is "You're an intellectual, not a manual laborer."
+
+The can't pull scenery rule response (A) is "You're an intellectual, not a manual laborer."
+
+The can't take yourself rule response (A) is "You've already taken yourself this far."
+
+The can't take other people rule response (A) is "You can't stealthily carry a human body out of here alone."
+
+The can't take people's possessions rule response (A) is "You're trespassing, not burglarizing."
+
+The can't take what you're inside rule response (A) is "You can't move this space, let alone take it."
+
+The can't take scenery rule response (A) is "Strange, how things seem to elude your grasp since you entered this chamber."
+
+The can't take what's fixed in place rule response (A) is "You need to travel light."
+
+The can't take what's already taken rule response (A) is "You already have it."
+
+The can't exceed carrying capacity rule response (A) is "Looks like your pockets are full."
+
+The can't remove from people rule response (A) is "As the researcher, you're entitled to anything you can take from the research subject."
+
+The can't remove what's not inside rule response (A) is "[if the player is in the Minefield]Without organs, Vali somehow continues to wheeze and cry. With each nodule you cut, each landmine you remove, you come one step closer to perfect silence.[otherwise]You can't remove what isn't there."
+
+The can't eat unless edible rule response (A) is "[if the player is in the Minefield]You're perversely curious about what her flesh tastes like, in the spirit of ancient medical traditions, but you can't tell what's safe to consume from what's akin to a C4.[otherwise]You're too excited to have much of an appetite."
+
+The can't eat unless edible rule response (A) is "Assuming you could eat [the noun], you expect you'd swiftly regret it."
+
+The can't go that way rule response (A) is "[if the player is in Minefield]It's dangerous to stray from the predetermined safe routes.[otherwise]You aren't leaving until your data-gathering mission here is concluded."
+
+The can't switch off unless switchable rule response (A) is "Only certain instruments can be switched on."
+
+The standard report switching on rule response (A) is "[The noun] is now on."
+
+The standard report switching off rule response (A) is "[The noun] is now off."
+
+The can't drop yourself rule response (A) is "Maybe after you're done here, you'll drop off a care package at Vali's office, so she'll have something nice waiting for her if [unicode 8212] when [unicode 8212] she's restored."
+
+The reserved dropping rule is listed after the can't drop what's not held rule in the check dropping rulebook.
+
+The special cases dropping rule is listed after the can't drop what's not held rule in the check dropping rulebook.
+
+This is the reserved dropping rule:
+	say "You like [regarding the noun][them] too much to discard [regarding the noun][them].";
+	rule succeeds.
+
+Check dropping something (this is the special cases dropping rule):
+	if the noun is the memo:
+		say "Better hold onto this, in case you need to reference it." instead;
+	else if the noun is a blade:
+		say "But then how will you torture Vali?" instead;
+	else if the noun is the journal:
+		say "And lose months of handwritten field notes?" instead.
+		
+The block swinging rule response (A) is "[if the player is in the Minefield]Your range of motion is restricted in Vali's interior.[otherwise]You shake out the stiffness in your arms and legs."
+
+The block showing rule response (A) is "[if the player is in the Autopsy Room]To your knowledge, there is no photographic evidence of a demining procedure. You write the date and time on her forehead with your bloody index finger, wipe your hands, and photograph her with your phone.[otherwise]You can't wait to show the world what you're witnessing firsthand."
+
+The block climbing rule response (A) is "[if the player is in the Minefield]You let your fingers climb Vali's sticky abdominal wall, upwards onto the flaps of the Y-incision, spread open by a spanner. She shudders. She takes pain so well, you wonder if she's enjoying it.[otherwise]You won't be climbing your way out of this one."
+
+The block kissing rule response (A) is "The last thing you need is an ethical violation."
+
+The can't put clothes being worn rule response (A) is "You're already wearing that."
+
+The can't drop body parts rule response (A) is "Dismembering yourself would be a challenge."
+
+Section 3 - Command, Action Processing
+
+The parser command internal rule response (A) is "Some errors defy correction. You'll have to try again."
+
+The parser command internal rule response (B) is "You're met with no resistance, as befits your ask."
+
+The parser command internal rule response (D) is  "There must be a better way of articulating your desires without resorting to brute repetition."
+
+The action processing internal rule response (D) is "Action might be the needful thing, but it requires a fruitful object." 
+
+Section 4 - Carry Out, Report
+
+The standard report taking rule response (A) is "You slip [the noun] into your pocket."
+
+The standard report waiting rule response (A) is "You pause to take stock of the situation."
+
+The report touching things rule response (A) is "Examining [the noun] might tell you more about how it feels."
+
+The report touching other people rule response (A) is "Examining [the noun] might tell you more about how it feels."
+
+The report touching yourself rule response (A) is "Your skin feels dry in this antiseptic, air-conditioned room."
+
+The kissing yourself rule response (A) is "You don't love yourself like [it]that[rt]."
+
+The report rubbing rule response (A) is "[if the player is in the Minefield]Rubbing Vali's interior might galvanize an interesting response, but it could also trigger explosions.[otherwise]You don't need to clean a sterile space."
+
+The report smelling rule response (A) is "[if the player is in the Storage Closet]The clean, neutral odor of stainless steel and sundry clinical items clashes with the indolic, musky, iron-rich scent coming from a biohazard bag on the shelf.[otherwise]An antiseptic smell hangs in the air, partially masking phenols, spikenard, mycelium, and a hint of turmeric."
+
+The report tasting rule response (A) is "[if the player is in the Autopsy Room]The sterile air is dry and cool and tastes, as expected, of copper, indole, and brine, but also creosote and tar.[otherwise]A sterile space shouldn't prompt you to lick everything in sight."
+
+The report jumping rule response (A) is "You don't have time for calisthenics."
+
+The report listening rule response (A) is "[one of]Silence[or]A faint strain of Carnatic music comes to your ear[or]The HVAC system hums busily away[or]You hear voices, so loud as to practically be in the room with you, yet you can't understand a single word[as decreasingly likely outcomes]."
+
+Report listening in the Storage Closet when the examiner is in Autopsy Room:
+	say "You hear the examiner recording his observations as he conducts his perimortem dissection [unicode 8212] a civilized term for rehabilitative vivisection."
+
+The standard looking under rule response (A) is "Something lurks under everything, but looking under [the noun] won't help you progress."
+
+The can't search unless container or supporter rule response (A) is "[if the player is in the Minefield]You're scouring her interior for anything and everything that could reinvigorate your research.[otherwise]It would be more productive to examine objects you've already noticed."
+
+The carry out requested actions rule response (A) is "[if the player is in the Minefield]While you have complete power over this vivisected body, you also don't care enough to do more than explore.[otherwise]You're worried about the ramifications of such an action."
+
+Section 5 - Listing and Descriptions
+
+Before listing nondescript items when the player is not carrying the memo:
+	if the memo is marked for listing:
+		say "A three-page memo stuck to the door hangs from one taped corner.";
+	otherwise:
+		now the memo is unmarked for listing.
+		
+Rule for listing nondescript items of the Storage Closet:
+	now the cabinet door is unmarked for listing;
+	say "[lb]On a small shelf level with your face ";
+	list the contents of the Storage Closet, as a sentence,
+		tersely, listing marked items only, prefacing with is/are,
+		giving brief inventory information;
+	say "."	
+
+Rule for listing nondescript items of the Autopsy Room:
+	now Vali is unmarked for listing;
+	now the cabinet door is unmarked for listing;
+	now the electronic door is unmarked for listing;
+	say "Your attention is drawn to ";
+	list the contents of the Autopsy Room, as a sentence,
+		tersely, listing marked items only,
+		including contents and giving brief inventory information;
+	say "."
+
+After taking the keycard:
+	now the keycard is unmarked for listing.
+
+Rule for listing nondescript items of the Minefield:
+	say "You notice markings: ";
+	list the contents of the Minefield, as a sentence,
+		tersely, listing marked items only, prefacing with is/are,
+		including contents and giving brief inventory information;
+	say "."
+	
+Section 6 - Print Rules and Details
+
+The print obituary headline rule is not listed in any rulebook. The print final score rule is not listed in any rulebook.
+
+The print modified inventory rule is listed instead of the print standard inventory rule in the carry out taking inventory rulebook.
+
+This is the print modified inventory rule:
+	say "[lb]You are carrying:[lb]" (A);
+	list the contents of the player, with newlines, indented, including contents,
+		giving inventory information, suppressing all articles, with extra indentation.
+		
+Rule for printing inventory details: stop.
+
+Rule for printing room description details: stop. 
+
+Chapter 4 - Commands, Actions
+ 
+Section 1 - Going, Directions
+
+Down is a direction. The opposite of down is up.
+
+Section 1(a) - Continuing
+
+Understand the command "continue" as something new. Continuing is an action applying to nothing. 
+
+Understand the command "follow" as something new. Following is an action applying to nothing.
+
+Understand "keep going" or "continue" or "follow" as continuing.
+
+Instead of continuing when the player is not in the Minefield:
+	say "You should use directions when they're available."
+	
+Section 2 - Cutting, Hit Points, Infliction Endings
+
+Attacking it with is an action applying to two things. Understand "attack [something] with [something preferably held]" as attacking it with. Understand "kill" as attacking it with.
+
+A first check attacking rule (this is the convert attack to cut rule): if the noun is cuttable, try cutting the noun instead.
+
+Understand "cut" or "dissect" or "drill" or "saw" or "auger" or "excise" or "vivisect" as cutting.
+
+Cutting it with is an action applying to two things. 
+
+Understand "cut [something not held] with [something preferably held]" or "auger [something not held] with [something preferably held]" or "dissect [something not held] with [something preferably held]" or "drill [something not held] with [something preferably held]" or "saw [something not held] with [something preferably held]" or "excise [something not held] with [something preferably held]" or "operate on [something not held] with [something preferably held]" as cutting it with.
+
+Vivisecting is an action applying to one thing.
+
+Understand "vivisecting" as cutting it with. Understand "dissect [something]" as vivisecting. Understand "operate on [something]" as vivisecting.
+
+Section 2(a) - Instead of Cutting
+
+Instead of cutting when the player is not carrying a hand auger (this is the can't cut with a nonblade rule):
+	if the second noun is not a blade:
+		say "You need something sharp." instead;
+	rule succeeds.
+	
+Check cutting it with when the noun is Vali:
+	if the second noun is not a blade:
+		say "You don't believe in violence. Except when it's warranted.";
+	otherwise:
+		say "Violence against a research subject is often warranted."
+
+Check cutting it with:
+	if the noun is uncuttable:
+		say "You suppress your sudden penchant for wanton destruction.";
+	otherwise:
+		say "Careful: division can be synonymous with proliferation."
+
+Check cutting scenery:
+	say "Many myths describe a place where the veil separating planes of existence is thin enough to be parted by human hands. Unfortunately, your blade isn't capable of cosmic damage." instead.
+
+Instead of cutting Vali when the player is in the Minefield:
+	if the player is carrying a hand auger:
+		repeat through Table of Pain Responses:
+			say "[agony entry][pb]";
+	otherwise:
+		say "You don't believe in violence. Except when it's warranted."
+
+Section 2(b) - Damage System
+	
+Instead of cutting Vali with when the player is carrying a hand auger:
+	choose a random row in Table of Pain Responses;
+	say "[agony entry][pb]";
+	let the damage be a random number between 1 and 2;
+	let the enemy damage be a random number between 1 and 2;
+	increase the current hit points of the noun by the damage;
+	decrease the current hit points of the player by the damage;
+	if the current hit points of the noun is greater than 10:
+		say "A sudden flash of light from her interior, dissolving your sight into the dazzling splendor of sundogs on glacial ice. You will never properly recover this sense.";
+		perform Ending A;
+	if the current hit points of the player is less than 0:
+		now the player is dead;
+		say "Pain sinks into you with machete-sharpness, slashing a cryptic road through your viscera with a machete, a resonant echo of your fingers trawling through Vali's foreign flesh. You clutch at your stomach with one hand, at the autopsy table with the other as your knees buckle.[pb]";
+		perform Ending B.
+
+Section 2(c) - Unnecessary Torture Responses
+
+Table of Pain Responses
+index	agony
+1	"You prod Vali's cheek with the tip of the auger, but she doesn't move. You did always think her alleged pain sensitization was suspicious. You barely perceived it at work."
+2	"You drag the auger's tip from the delicate skin of the orbital socket to her jaw. A thick bead of blood follows the tarnished bit, drops a red veil over her cheek, while a bruise immediately forms around her eye, which you notice is silently crying."
+3	"Methodically, you insert the auger's bit between her lips and leverage her mouth open. She moans, startlingly loud for having no lungs. Her tongue is still there, though it seems to have cleaved to the roof of her mouth."
+4	 "This close, you see her skin is dotted with red spots: not moles, not angiomas. You attempt to cut one out, inciting several frenzied twitches, but they're too small, or the auger is too big."
+5	"You notice the umbilical scarring on both sides of her navel, a relic of laparoscopic surgeries. It's spongy to your curious finger and yields easily to the auger. Her low, wheezing moan swiftly escalates to a hoarse cry, but it can't be worse than a belly button piercing, and she's covered in piercings and tattoos."
+6	"You're fascinated by the strong spasm that kicks through her, despite the thousands of nerves that have been severed in this process. You twist the auger until the point of the drill impales its way through.[pb]The glow of her interior intensifies, reminding you to stop experimenting and focus on the task at hand."
+6	"She's wearing a gold nose ring with a diamond stud. You think she mentioned getting it in Batticaloa, during some war, one of the only times she met her extended family and friends.[pb]It seems unlikely that she'll be needing it anymore, and it's easy proof that you were here."
+7	"A flick of your wrist accidentally torques the auger, gouging out a chunk of her abdominal wall. The hole spills blood instantly. She twitches, but her features smooth into serenity, or resignation: a martyr in the homestretch. You almost envy her for the forbidden knowledge she must, thanks to you, have."
+8	"You have not loved an object of study for some time, but the way her pupil eclipses the iris when you hold the auger above her open eye inspires tenderness. You're surprised at how quickly you've forgotten she was human, maybe because the humanity of people like her is always in question."
+9	"It says something about you, doesn't it, that your desire to thoroughly complete an investigation outweighs the fact that you must become a torturer to do so."
+
+Section 3 - Speech Acts and Obscenity
+
+Screaming is an action applying to nothing. Understand "scream" as screaming.
+
+Carry out screaming: 
+	if the player is in the Storage Closet:
+		say "You'll definitely have something to scream about if you frivolously betray your position to the authorities like that.";
+	otherwise:
+		let the damage be a random number between 1 and 2;
+		decrease the current hit points of the player by the damage;
+		increase the current hit points of the noun by the damage;
+		say "Figuring the room is soundproof, you scream, and in doing so, realize how horrified by all this you really are."
+	
+Instead of screaming for the tenth time:
+	now the player is dead;
+	perform Ending A.
+
+Section 3(a) - Say, Ask, Tell, Answer
+
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "talk to [something]" as talking. 
+
+Understand "talk to [someone] about [text]" as asking it about. 
+
+Understand the commands "ask" and "tell" and "say" and "answer" as something new. Understand "ask [text]" or "tell [text]" or "answer [text]" or "say [text]" as a mistake ("[talk to instead]").
+
+Instead of answering the noun that something:
+	try telling the noun about it.
+
+Instead of asking someone to try doing something:
+	say "[talk to instead]".
+
+To say talk to instead:
+	say "Talking to someone indicates a clearer sense of purpose and direction."
+	
+Instead of talking to something:
+	say "It can't talk back, but then again, its inability to speak helps grease the wheel of research."
+
+Instead of talking to Vali:
+	repeat through Table of Vali Conversation:
+		say "[convo entry][pb]";
+		blank out the whole row;
+		rule succeeds.
+		
+Section 3(b) - Vali's Conversation Responses
+
+Table of Vali Conversation
+index	convo
+1	"The whisper she throws back at you is too resonant, too layered, for a woman without lungs who possessed a single voice when she had them."
+2	"'I suppose,' she murmurs, 'you find all this interesting. Which is an interesting way to say you can overlook your complicity in BIPOC disabled pain.'"
+3	"'I skated through most of my formal education by feigning [']good South Asian girl['] assimilation, maintaining the border between the techniques of my fiction writing and my research writing, habituating Eurocentric standards of academic style well enough to [']pass.[']"
+4	"'Yes. I was warned. At every stage of my career, at least one senior scholar said, 'Good scholars know to prioritize content over craft.' Her face smoothes into placidity, fleetingly, before a grimace breaks her composure. 'But what you're really asking,' she continues, 'is [it]didn't I do this to myself[rt]. As though this punishment is proportionate to the crime.'"
+5	"'I'd write first drafts full of formal, multimodal, and digital experimentation, then spend several revisions sanitizing them of my embodied presence prior to publicly sharing it. I was transparent but careful in writing about my subjective experiences of pain and composition; I avoided referencing war crimes to avoid backlash; but what was the use of holding back? Other rhetoricians still found ways to miss the point and objectify my body, my conditions, my culture.'[pb]'Between this, the impacts of chronic pain, and the postmemory of the Eelam Tamil genocide superimposed over the reuse of its choreography in the Palestinian genocide [unicode 8212] I stopped being able to give a fuck.'"
+6	"Her body emits an eardrum-splitting shriek, like an airstrike finding its target: which is, perhaps, the logic of academia, distilled into one noise."
+7	"'Help me,' her chapped lips shape. 'Help me.'"
+
+Section 3(c) - Swearing
+
+Swearing obscenely is speech. Swearing mildly is speech. Saying yes is speech. Saying no is speech. Saying sorry is speech.
+
+Understand "bother" or "curses" or "hell" or "drat" or "darn" or "goshdarnit" or "ass" or "asshole" or "assclown" as swearing mildly.
+
+Understand "swear" or "curse" or "shit" or "fucker" or "damn" or "motherfucker" or "bitch" or "whore" or "slut" or "goddammit" or "goddamn" or "dick" or "cock" as swearing obscenely.
+
+Instead of swearing obscenely:
+	say "[if the player is in the Storage Closet]You curse under your breath, the word ricocheting between the steel walls.[no line break][end if][if the player is in the Autopsy Room]You hear your curses redoubled, in a voice that isn't yours, but the only two people here are you and the vivisected subject.[no line break][end if][if the player is in the Minefield]That low, raspy echo is emanating from Vali's interior. Why, or how, though, you don't know.[no line break][end if] Neither your mood nor your situation improve."
+
+Section 3(d) - Sexual Innuendo
+
+The block swearing obscenely rule is not listed in any rulebook.
+
+Having sex with is an action applying to one topic. 
+
+Understand "have sex with [text]" or "copulate with [text]" or "fuck [text]" or "seduce [text]" as having sex with.
+
+Carry out having sex with:
+	if the player is in the Minefield:
+		say "In the sense of penetration, you're already fucking her; in the figurative sense, she's already screwed.";
+	otherwise:
+		say "Is that desire or violence awakening within you? Regardless, you don't have time to indulge."
+
+Section 4 - Reading
+
+Reading is an action applying to one thing, requiring light. 
+
+Understand the command "read" as something new. Understand "read [something]" as reading. 
+
+Check reading: 
+	if the printing of the noun is "blank", 
+	say "Nothing is written on [the noun]." instead. 
+
+Section 5 - Research Journal and Writing
+
+A jotter is a kind of thing. A jotter has an external file called the text file. A jotter can be fresh or marked. A jotter is usually fresh. A jotter has a text called the heading.
+
+The currently erased jotter is an object that varies.
+To erase (pad - a jotter):
+	now the currently erased jotter is the pad;
+	write "[heading of the currently erased jotter][pb]" to the text file of the pad;
+	now the pad is fresh.
+
+To write in (pad - a jotter):
+	append "[location][pb][topic understood][lb]" to the text file of the pad;
+	now the pad is marked.
+
+To read (pad - a jotter):
+	say "[text of the text file of the pad]".
+
+When play begins:
+	repeat with pad running through jotters:
+		erase the pad. 
+
+Instead of examining a marked jotter (called the pad):
+	read the pad.
+
+Instead of examining a fresh jotter (called the pad):
+	say "There is nothing of note in [the pad]."
+
+Instead of reading the journal:
+	try examining the journal.
+
+Understand "write [text] in [something preferably held]" as writing it in. Understand "write [text]" as writing it in. Writing it in is an action applying to a topic and one thing. 
+
+Rule for supplying a missing second noun while writing: if a jotter (called the pad) is carried, now the second noun is the pad; otherwise say "You'll need a notebook to write in."
+
+Check writing it in:
+	if the second noun is not a jotter, say "There must be a notebook here somewhere." instead.
+
+Carry out writing it in:
+	write in the second noun.
+
+Report writing it in:
+	say "Under your current location, you write '[the topic understood]' in [the second noun]."
+	
+Understand "erase [something preferably held]" as erasing. Erasing is an action applying to one carried thing.
+
+Check erasing:
+	if the noun is not a jotter, say "That's a rather liberal use of the eraser." instead.
+
+Carry out erasing:
+	erase the noun.
+
+Report erasing:
+	say "You scribble out all the entries in [the noun]."
+
+The player carries a jotter called your research journal. The description of the journal is "A pocket-sized journal for collecting field notes."
+
+The file of Player's Observations is called "journal". The text file of the journal is the file of Player's Observations. The heading of the journal is "Field Notes".
+	
+Instead of examining the journal when the journal is fresh:
+	say "Your pocket-sized journal is blank except for a list you'd sourced earlier of the x,y coordinates and cryptic descriptors that apparently correlate with the research subject's interior.[lb]You can probably comfortably write 20 words at a time. [note res-jrn][lb]"
+	
+Section 6 - Using
+
+Understand the command "use" as something new. Understand "use [something] on [something]" as using it on. Using it on is an action applying to two visible things.
+
+Chapter 5 - Written and Audio Material 
+
+Section 1 - Memo
+
+Table of Storage Closet Memo
+index	memo response
+1	"Page 1 of 3 - [it]Multimodal Genetic Transcription[rt]: Transcription is the process of decrypting the subject's body into verbal messages. To transcribe any messages you discover during demining, copy the output text and WRITE <copied text> to log your findings. At the end of your investigation, you will be able to read the fragments you assembled without interruption."
+2	"Page 2 of 3 - [it]To Correctly Log Observations[rt]: CONTINUE in the minefield of the subject's interior to examine nodes in order of appearance along the predetermined safe path."
+3	"Page 3 of 3 - [it]Warnings[rt]: Personnel must not, under any circumstances, excise or store landmines without proper authorization, torture the body unless torture is a needful action, or halt demining midway. Keep your wits about you. Stasis buys you time. It does not make these people less dangerous."
+
+Section 2 - Hanging File in Drawer
+
+A file is a kind of thing. Understand "file" or "the file" or "folder" or "case" or "case study" as a file. A file is usually proper-named. A file has an indexed text called a code.
+
+A file can be available. A file is usually not available. The description usually is "[lb]A plain manila folder with an adhesive label stuck to its 1/3-cut tab: '[the code of the noun]'."
+
+KOLAM441 is a file. The code of KOLAM441 is "KOLAM441". The printed name of KOLAM441 is "report labeled KOLAM441".
+
+The description of KOLAM441 is "[first time]A packet of papers composed with a typewriter, bound with brass fasteners and two clear binding covers.[only]The title page reads: 'KOLAM441 - SUBJECT [']Vali['].' [note info] There are no listed PIs or authors."
+
+Instead of reading KOLAM441:
+	repeat through the Table of KOLAM441 in index order:
+		say "[page entry] [pb]";
+		blank out the whole row;
+		rule succeeds;
+	say "You flip through the pages, but nothing else catches your eye."
+	
+Instead of examining KOLAM441:
+	try reading KOLAM441. 
+
+Table of KOLAM441
+index	page
+1	"[it]Vali[rt]: pain and power (Tamil)."
+2	"A redacted summary of Vali's crimes, qualifications, and the necessity of expediting assessment. The legible remnants mention 'credible attempts at mutiny through... persistent devaluation of Eurocentric academic style' and 'apparent commitment to weaponizing composition to inflict pain' and 'generally hostile attitude.'"
+3	"A few printed electronic consent forms with Vali's name typed on the signature line. Of course, without her handwriting, there's no proof she signed any of these herself."
+4	"An unfinished procedure note: Pt Vali was well-appearing, well-nourished, well-formed on delivery but confused and disoriented to surroundings, likely due to prior administration of lidocaine and propofol. Verbal consent for procedure was obtained. Pt has Hx of chronic pain, chronic fatigue, cardiac disease, allergic hypersensitivities, secondary trauma, professional recalcitrance, and unreliable narration.[pb]Following the third complaint of public deviancy, Pt was taken for examination. Radiological scans confirm a body that 'looked like a bomb went off,' necessitating a full perimortem dissection and demining procedure. [pb]Pt was immobilized, positioned supine, and opened using a traditional Y-incision. The organs were examined in situ and determined to be mine-free, then removed with Technique of Letulle and sealed in biohazard bags to be returned to the body later (pending final diagnosis). Blood was collected and filtered back into the body, as she has noted her people once 'had to do.' Pt remained responsive to pain and general vital signs remained stable. [note surgery]"
+5	"[it]Significant Findings[rt]: An astounding 441 landmines discovered in lining of thoracic and abdominal cavities (possible correlation with the reliance on landmines during Sri Lanka's ethnic conflict?). Histopathological analysis of organs and chemical and toxicological analysis of blood and fluid indeterminate. Prophylactic demining and normalization recommended at this time.[pb][it]Laboratory Values[rt]: Normal < 10% landmine body composition - Resuscitation recommended; > 10% landmine body composition - Humane disposal recommended."
+6	"A photograph: Vali in happier times, delivering a presentation on a stage, an image of an intricate diagram of looping lines and dots behind her.[pb]Did she really think there wouldn't be consequences? [note candw24]"
+7	"An attached bibliography of Vali's writing. You remember bookmarking some of these articles for later, as as they seemed convoluted and time-intensive. Then you forgot about them.[pb]There's also a note linking Vali's troublemaking with her chronic pain, her history of collective trauma, and 'a cultural propensity for suicide bombing' that might have nurtured terrorism in her, priming her to merge the critical, creative, and cultural in ways most self-respecting scholars know not to."
+8	"Field notes of interviews. A paragraph leaps out at you:[pb]'[bt]VM[rt]: 'I was 'supposed' to be a medical doctor or computer scientist, so it's ironic that my post-doctorate title belongs to neither field but reflects an academic orientation to both the biomedical and the digital. Cultural confusion emerged around my field and health in the South Asian community I had back in school. If I was going to examine the intersections of the rhetoric of health and medicine and digital rhetoric, why didn't I go into medicine or computer science? Why pathologize pain, the condition of Eelam Tamil life? Why claim trauma, a 'Western disease,' when I have survived nothing? Don't I do myself a disservice by telling 'outsiders' about what we find obvious: that writing is an embodied, multimodal, culturally specific performance; that chronic pain can be accepted? Don't I know better than to endanger all of us by telling stories that must never be told?'[pb]Also: 'Obliqueness and intuition are significant components of my heritage knowledges and aesthetic traditions. Not to mention common in a demographic who grew up believing the war would never end, and knew from the international response when the GoSL declared victory that it really never would.'"
+
+Section 3 - Footnotes
+
+Include Footnotes by Stephen Granade. Footnotes are on. Footnotes are given repeatedly.
+
+Table of Footnotes (continued)
+Name	Note
+abstract	"[bt]Inventio: Abstract[rt]:[lb][it]perimortem [bk]in (theoretical) rigor[cb][rt] is a creative-critical parser game that enacts Eelam Tamil diasporic-disabled repairing composition, extending Aaron Trammell's (2023) 'repairing play': a Black phenomenology of play that begins with the idea that torture is play for people of color who share collective histories and ongoing experiences of racial and ethnic violence. I propose a similar corrective: that torture also inheres in composition for nonwhite/non-European diasporic and disabled scholars who can't predictably 'pass' and whose experiences of racism and ableism are embedded in shared collective histories of colonization, ethnic chauvinism, and mass atrocity without justice or accountability. Mapped using kolam geometry, [it]perimortem[rt] is a parser game designed to simulate the pleasurable and painful affects of composition and challenge the Euro-Western moral and aesthetic aversion to tortured embodiment in scholarly writing by explicitly illustrating the presence of torture-and/as-play in academia."
+res-jrn	"[bt]Inventio: Session Transcript and Research Journal[rt]:[lb]If players choose to save the session transcript when prompted at the start of play, the file will silently record all input and output in the order of encounter, including player actions, expository and descriptive text, error messages, and notes for the Inventio section of [it]Kairos[rt]. The final version of the file translates South Asian classical aesthetics into Euro-Western composition and illustrates the relational, kairotic, and painful nature of composition.[pb]This transcript includes player input in the research journal, where players can take notes on game text and write annotations, highlighting how writing is as intersubjectively co-constructed as the interpretation of 'legitimate' pain and trauma. Its contents can be retrieved at any time during play. Although the journal is limited to 20 words per input, it's possible to copy game text into it, as well as write down anything else.[pb]The result is a doubly interactive creative-critical text whose game session transcript attests to a highly individualized, affective experience of composing and engaging with scholarship."
+candw24	"[bt]Inventio: Numeric-Thematic Concordance[rt]:[lb]I assigned Cartesian coordinates to each pulli in the kolam and a theme to each Cartesian quadrant, axis, and modular kolam. The quadrant themes are: Composition (Quadrant 1), Disability (Quadrant 2), Genocide (Quadrant 3), and Play (Quadrant 4). The numerical concordances (+ and -) are: Origins (0), Haunting (1), Spite (2), Pleasure (3), Emergence (4), Luxury (5), Torture (6), Navigation (7), Design (8), Contingency (9), and Healing (10). The themes of the modular kolams reflect relationships with their counterparts and neighbors: Threshold, Relationality, Syncopation, Chronicity, Rigor, Memory, Desire, Beauty, Power, Hands, Constraint, Exactitude, Object, Safety, Thought, Assimilation, Resistance, Disguise, Flight, Appendix, Teratology, Perfection, Anomaly, Contagion, and Eyes.[pb]A text is associated with each pulli, with its location given as '(x,y): theme of [it]x[rt], theme of [it]y[rt], theme of modular kolam.' Each text is designed to work alone and in different relationships with other points in the design, suggesting that elements in the text are relational and exchangeable.[pb]The result is a representation of the topological structure of the text that allows players to visualize multiple, shifting relationships [unicode 8212] thematic, numeric, and spatial [unicode 8212] across its contents.[pb]I chose to render the kolam notation as the basis of a world map, to suggest the movement involved in kolam art and the lines of flight created by geographical and cultural displacement. I sequenced the text in one order, but like these lines of flight, it's not the only way. Players can finish drawing the incomplete map and differently 'solve' the kolam, yielding another variation of the text."
+world	"[it]Inventio: Narrative Environment[rt]:[lb]Parser games resist assimilation into scholarly composition, while choice-based IF tools like Twine [unicode 8212] which more closely resemble Euro-Western reading orientations and familiar genres like hypertext [unicode 8212] enjoy greater popularity and legitimacy in digital composition. Parser games involve open-ended inquiry, directional navigation, and attending to the writer's craft.[pb]I designed a bounded setting with open-ended exploration and narrative details that, like the kolam text, reinforce the relationships between play, torture, digital composition, and racism and ableism in academia.[pb]The autopsy chamber is a so-called safe house where people like me are flayed of our aberrations; the implication is every university has one, and you might have done a turn in it, in either role."
+organs	"[bt]Inventio: Organs[rt]:[lb]For narrative reasons, I needed the dissected subject to be hollow [unicode 8212] an Easter egg referencing another scholarly game I wrote [unicode 8212] but in a way that implied the possibility of revival. The bag of organs interjects literal viscerality. It's a fitting artifact. Our profession doesn't explicitly call on its BIPOC, diasporic, and/or disabled practitioners to lay down our lives for our work, but it profits off our evisceration."
+info	"[bt]Inventio: Information Management[rt]:[lb]Writing with Inform is primarily an exercise in information management and presentation that stays mindful of its relationship with the player and can be manipulated to progress in a kolam pattern. I implemented tables to track information and modify the player's state of contagion and presented that information to the player through mundane research objects like a file folder and digital voice recorder.[pb]Unlike academia, where forgetting a famous scholar's name or common rhetorical concept can lead to a public execution, Inform tolerates my inelegant code without impeaching my writing skill."
+keyc	"[bt]Inventio: Keycard[rt]:[lb]I initially implemented a keycard door because exits are an expected feature of IF prose. Strategically, I needed to prevent players from straying from the scholarly text without making the game world too unbelievable. I realized while drafting that I could rebuff exit attempts with endings that simulate the affects and sensations I have to endure when conforming to normative digital composition formats and tools.[pb]There are two different endings to this 'demo' game. Escape attempts earn an ending that represents the experience of BIPOC disabled rhetoricians who cannot leave academia, aren't protected while they stay, and are fated to be consigned to the garbage heap once their value is fully extracted. Even digital composition can become this cage."
+floor	"[bt]Inventio: Cutting Room Floor[rt]:[lb]There was no cutting room floor for this text, only different versions of it.[pb]The keynote version: The textual equivalent of a 50-minute reading, or 54 texts whose corresponding 54 pulli were the first to be sequentially enclosed by a line that eventually encircles all 441 points. The path I chose is not the only possible path, but it's the first one I completed after many errors and therefore the one I settled on.[pb]The full version: 441 individual and interconnected pieces mapped onto a 21x21 kolam whose dots represent thematic intersections on a Cartesian plane.[pb]The 'demo' excerpt: The game you're playing now, comprised of the first 10 pieces interspersed with descriptive and expository text, characteristic of parser games."
+hauger	"[bt]Inventio: Economies of Harm[rt]:[lb]It was important to me to confront academic players with their complicity in the cycle of harm perpetuated in academic writing. I encoded 'cutting' as a special action with an associated damage system to enact how I have to accept extra harm, without reciprocity, to compose scholarship. I settled on a hand auger as the primary tool of vivisection. A scalpel, a symbol of clinical objectivity, depersonalizes the cadaver, whereas a hand-cranked drill presses the tactile sensations of torture into your hand. It also felt significant that [it]auger[rt] is a homophone of [it]augur[rt], a word I learned as a child from folklore. Here, the prediction concerns whether you will stay the course with the spiral blade, understanding that you already engage in violence, or exit without looking back. You are helpless to change these options, if the text is to be read."
+vbody 	"[bt]Inventio: Embodiment[rt]:[lb]Repurposing kolam geometry using Inform 7, a doubly labor-intensive process, might seem counterintuitive for the fibromyalgic composer who has to conserve her energy; but the two forms mimic the structures of my diasporic-disabled prewriting and writing processes. Diasporic-disabled composition anticipates the reading habits players bring to the text; composing with Inform requires an anticipatory stance. In parser games, exposition must be rationed into manageable pieces, which is conducive to my instinct to map textual fragments onto a kolam pattern whose topology reveals the shape of the full text."
+surgery	"[bt]Inventio: Anomaly[rt]:[lb]My process of invention is always affected by the intrusive sensations and limitations of my body. I can't persuade. I can't endure (9 months with appendicitis, 10 years with a hermetically sealed abdominal infection, 20 years of academic abuse, 41 years in the shadow of atrocity, a dislocated? shoulder? right now), and I must.[pb]I found solace in Inform's limitations and hoped to generate a frustration in players like mine when I read, write, teach, live. Defining objects and actions through conditions and properties mimics how I compose through physical and spiritual pain. Runtime errors caused by attempting to access an undefined property echo my need to define my bodymind's properties to access care for 'undefinable' pains. My printed output might look pretty, but only after many rewrites, as the backend stuff of my creation isn't."
+claymore	"[bt]Inventio: Terrorism[rt] ([it]cn: dismemberment[rt]):[lb][it]Human landmines[rt] usually refer to anti-personnel mines, ranging from small tripwire explosives to command-detonated directional claymores. Claymores were used extensively in Sri Lanka during the conflict. Soldiers, pedestrians, busloads of civilians. The first photograph I saw of its swath of destruction was a leg, circled in chalk, intact to the fleshy part of the thigh, trousers indistinguishable from charred skin. It's a strangely bloodless scene, but in the background there stands an apparently uninjured man, stained from waist to head, wild eyes stark white in a face dyed dark.[pb]That the objectified diasporic-disabled body in pain retains an inherently destructive force is my analogy for the common BIPOC, diasporic, and/or disabled experience in academia. Our interventions are lauded when it suits the field, but at other times [unicode 8212] most times [unicode 8212] must be thwarted before our corruption spreads. I designed the landmines, and their distribution of damage (or vitality) on accessing their associated texts, to illustrate this.[pb]No matter how much I feign assimilation in my written work, I never leave the realm of suspicion. I feel barely a step away from being reframed as terrorist. I composed this text wondering if it would unfavorably tip the scales."
+maps	"[bt]Inventio: Rooms and Maps[rt]:[lb]In Inform, map connections are created by joining rooms at their edges, which forges pathways between them in the eight compass directions. By default, traveling to a distant room means passing through every room on the way. But in kolam art, the swerving, looping line can't be neatly mapped onto compass directions, as it frequently bypasses its neighbors and intersects itself many times before enclosing a point.[pb]I wanted players to have a sense of the scale of the full kolam text and the embodied movement involved in drawing it. Thus, I designed the Minefield [unicode 8212] the region of the game world that contains the geometric notation of the kolam composition [unicode 8212] with 120/441 points, each understood by Inform as a single room, replete with map connections where adjoining points have been encoded.[pb]To avoid tampering with Inform's room and map system, I incorporated the special action 'continue', which effectively transports the player from point to point in the order the line enclosed them. Finally, I used Inform's map feature to generate a visual map of the kolam notation.[pb]My hope was that players could experience the text on multiple planes: 'linearly' on the visual grid; sequentially in the preprogrammed 'kolam pathway' in gameplay; or interspersed with parser messages as the player encountered them in the session transcript."
+suggestion	"[bt]Inventio: Embedded Suggestion[rt]:[lb] In IF prose, all text potentially poses a suggestion to the player. The art of IF prose involves balancing literary aesthetics and functional design, subtly directing the player through hints embedded in description and exposition. This legitimizes attention to craft and poetics in scholarly IF, as every word carries weight in the form of clues, the affective charge the writer infuses into the text, and the audience's embodied response to that text."
+concept	"[bt]Inventio: Concept Phase[rt]:[lb] I began with an idea about what the player’s experience should be: in this case, a locked-in story where players interact with an NPC to assemble a kolam text, with process reflections included throughout; a damage system where accessing the text reduces the player's hit points and increases the research subject's hit points while describing her pain; a world map that reflects the point lattice and the pathway through it. There are formulaic expectations around academic writing. The genesis of a research article is supposed to start with a 'point,' but I struggle with this kind of linearity; I start with 'points' that make instinctive sense. My composition process is shaped by Tamil literacy frameworks, intergenerational trauma, fibromyalgia. There are no beginnings or endings, just places in the weave where a reader enters and exits.[pb]Inform isn't a new platform, and parser IF isn't a new genre, but it doesn't adhere to Eurocentric notions of readability. It can be torture. By contrast, digital multimodal composition often transfers the (relative) linearity, coherence, and synthesis of traditional, print-based prose to forms that seem like an afterthought. The content of the digital multimodal text must crave its medium, to the point that it becomes a poor imitation of itself if its medium is rendered print-based and static. So symbiotically enmeshed, that sundering them is a bloody act."
+fkolam	"[bt]Inventio: Fibonacci Kolam[rt]:[lb]I settled on this kolam design for symbolic and strategic reasons: 21, an auspicious number in Hindu thought, becomes the number of dots in the grid's diameter; the Fibonacci recursion is one of the earliest mathematical formulas I remember Appa teaching me; and 441 seemed like a large enough number to contain a book chapter. Its size also reflects the tension between holistic and traditional approaches to medicine and writing in Euro-Western practice, as it becomes impossible at this scale to figure out where you went wrong if you make a mistake. After drawing the kolam notation by hand, I encoded it into the parser game environment as a series of rooms, each containing a landmine encased in flesh. After cutting the nodule open and examining each landmine, the player receives a unique textual fragment, while their hit points decrease and Vali's increase.[pb]Like so much in academia and healthcare, one error can permanently derail you."
+friction	"[bt]Inventio: Paths of Least Resistance[rt]:[lb] I usually suppress my authentic process and presence to conform to normative expectations around the scholarly writing process. Word processors make composition an act of frontend development only, without a sense of the backend. Inform's default composing view represents the text as a side-by-side view of the source code (where I write) and the story (the output after the code is run). When writing with Inform, I can begin with descriptive text, a bridge between machine logic and my pained thought processes. In Inform, the option to release the game as story file and source code links process and product, form and content, much more tightly.[pb]The parser is a visually and textually meaningful composition environment. I surface from composing this text with the same nomadic aches, rickety heart, essential tremor, lethologica, breathless exhaustion. But for a while, composing in Inform quiets those intensities."
+anticipation	"[pb][bt]Inventio: Anticipation[rt] [it](cn: explosives)[rt]:[lb]'I perpetually rehearse disaster when I move through the world. Pain sensitization makes every object and person in an environment a credible threat or potential resource. Every action is laden with consequence. I run mental simulations like a combinatorial soothsaying, estimating my odds of falling or of being struck. Composition is an embodied act, so I rehearse disaster when writing as well, obeying my instincts because it's dangerous to ignore intuition.[pb]There's a family story about an uncle in Sri Lanka who impulsively changed his route home from school on the day that a mine was detonated on one of his usual biking paths. I have a story about catching an earlier train to campus on the day that a pipe bomb exploded at my transfer stop. It's a complicated pleasure, to want to communicate, recognize, and form affiliations based on species of pain, expecting to be called [it]selfish[rt] and [it]unethical[rt] for wanting it by scholars who believe non-Western/diasporic pain is 'too political' and 'sadistic' for academic spaces. I am so rarely reflected in the craft of scholarly writing, which replaces chance with fixity, intuition with logic, Otherness with disembodiment.[pb]What choice will hurt the least? What kind of writing can my soulbody, styled by catastrophe, frictionlessly produce? Writing with constraints. Digital, multimodal, interactive writing that requires an anticipatory stance. Writing that provokes readers to confront their preconceptions about the act of academic writing and reading. Writing that allows me to perform my culture in ways outsiders can access.[pb]And so, I arrived at kolam geometry and Inform."
+inspo	"[bt]Inventio: Inspirations[rt]:[lb]I've been plotting a creative-critical text like this for a long time, since I was first attracted to parser-based interactive fiction and computational writing, where the text is digitized through numerical indices and a geometric notation (Psarra, 2018). This interest came out of a confluence of circumstances: discovering Italo Calvino's [it]Invisible Cities[rt] and Charu Nivedita's [it]Zero Degree[rt]; learning to cope with chronic illnesses and the biomedical algorithms that left no room for uncertainty in defining them; and watching online as violence in Sri Lanka intensified in what would become the final phase of the ethnic conflict, culminating in the Mullivaikkal Massacre.[pb]Before that, I grew up with parser games like [it]Zork[rt] and [it]Infidel[rt], graphic point-and-click adventures like [it]King's Quest[rt] and [it]Myst[rt], and console games like [it]Final Fantasy[rt] and [it]Mega Man[rt]. All of these things informed my orientation to (digital) composition, and explicitly introduced me to the relationships between play, torture, writing, and reading that I discuss in the kolam text. And before that, I listened to cultural and familial stories, where reality and fantasy commingled in matter-of-fact ways, and mystery, not resolution, was the point.[pb][it]perimortem[rt] is the culmination of all this.'"
+pic	"[bt]Inventio: Drawings[rt]:[lb]The process of composing [it]perimortem[rt] began with a drawing I couldn't get right: a 21x21 labyrinth pulli kolam, in which a single, continuous, uninterrupted line loops once around 441 dots without retracing itself to form a closed, geometric figure. I spent days meticulously failing at this endeavor, tempering frustration with patience with each X'd-out attempt, compelled to persist [unicode 8212] as with so much of my composing process [unicode 8212] by intuition alone.[pb]I was drawing a Fibonacci kolam [unicode 8212] a modular design using Fibonacci recursion, comprised of smaller square and rectangular kolams [unicode 8212] to serve as the geometric notation of the text, or a computational matrix or 'map' with an indexical relationship to the text (Psarra, 2018). I privately called this kolam rhetoric: composing a text in an algorithmic structure with cultural significance and connections to land and now also war, a design that could be digitally traversed, that was physically, cognitively, and spiritually painful [it]and pleasurable[rt] for me to produce. I also felt that the parser-mediated design would amplify the cultural resonances of kolam art while visibilizing my diasporic-disabled composition processes and critiquing the reification of Eurocentrism in our craft.[pb]The completed 21x21 Fibonacci kolam design forms the geometric notation for the full version of [it]perimortem[rt], and diagrams the two smaller excerpts before you right now: 54 points that can be linked to the fragments I read in my keynote address at Computers and Writing (C&W) 2024; and the first 10 of those pieces in mapped, playable form."
+oulipo	"[bt]Inventio: Oulipo[rt]:[lb]This game implicitly asks a question about the relationship between restraint and potential, like the one posed by the Ouvroir de Littérature Potentielle (Workshop for Potential Literature) or Oulipo writing movement: 'What possibilities exist when the writer is freed to break one system of rules by imposing another, one that more perfectly aligns with her cultural and embodied sensibilities?'[pb]That form and content are inseparable is a cultural expectation and, influenced by pain, a craft precept for my digital composition. Inform helps me evocatively stage a meta-performance of engaging in poorly understood modes of scholarly composition. How the story is told is part of the story itself."
+designs	"[bt]Inventio: Inform 7[rt]:[lb]Composing the text for [it]perimortem[rt] was a painful, protracted process of false starts, missteps, and fortunate accidents. I couldn't initially articulate my rationale beyond [it]this is what the piece demands; this is what will hurt me the least[rt]. My most obvious design choice is the use of Inform 7, a programming tool for creating interactive fiction (IF) that uses natural language syntax for reading and writing code. It comes equipped with a limited vocabulary, lexical relations and semantic classifications, and grammar that is unapologetically partial, idiomatic, and directive. It simplifies many complicated tasks (e.g., implementing the act of writing) but makes Goldberg machines of seemingly easy ones. Out of the box, it knows cardinal directions but not relative ones; that the game world has rooms but not their names or locations; that rooms contain objects but not what those objects are; that a container can be enterable and openable but a human body can't be. It sidesteps violence, but its reliance on descriptive text makes it easy to include.[pb]Composing in Inform is an exercise in collaborative worldbuilding. I have to anticipate the range of players' potential input and the limits of the parser's knowledge system to construct believable narrative responses in a believable world. 
+By default, Inform contains the bones of an invisible, half-built city, unfinished as Armilla, but doesn’t cede architectural oversight to you so much as invite collaboration (Calvino, 1972, p. 49). In Inform, you always enter as a co-author with the machine and the player, [it]in media res[rt].[pb]I worked with and expanded Inform's preexisting knowledge system to create rooms, things, and people; define their relationships and functions; identify synonyms; redefine commands; modify parser error responses; organize descriptions, conversation responses, and atmospheric messages; and place 'Inventio' process reflections for the throughout the game, in hanging files, dictaphone recordings, pulli text fragments, and object descriptions. Keeping in mind that players might not uncover all of the text, replay the game, or complete it at all, I repeated ideas I considered unmissable in multiple places to ensure their discovery and limited the number of objects and scenery. Still, a careless player, or a player focused on the pulli texts alone, could ultimately miss a lot."
+msgs		"[bt]Inventio: Modifying Messages[rt]:[lb]What's most frustrating about composing (and playing) Inform games is that the parser promises to understand player input [unicode 8212] but doesn't. Players have to trial-and-error verbs and nouns to ascertain the parser's vocabulary. My composition process involved imagining the range of words that players might enter to access the text, defining likely inputs that aren't already included and words I need the parser to recognize in specific ways (like 'landmine' or 'continue'), and redefining existing actions as needed. It also included modifying many of Inform's clumsily written default messages, like '[bk]Action[cb] would achieve nothing' or '[bk]Noun[cb] has better things to do.' Having to explicitly encode what I anticipate about my audience aligns with Tamil literacy frameworks and with how I'm already forced to anticipate my audience's repulsion to the experience of chronic pain [unicode 8212] and how I amputate my compositions to shield them accordingly. As for genocide-related trauma, as either poetics or subjective experience, 'it has no place in academic work.'"
+
+Chapter 6 - Voice Recordings and Autopsy Reports
+
+Table of Dictaphone
+index	voice recording
+1	"You can barely hear the examiner's voice behind ambient sound: a woman's voice? A chorus of voices? Are they... singing?"
+2	"There [unicode 8212] it's faint, but it's definitely a woman's whisper.[pb]No [unicode 8212] it's Vali's whisper. While the medico-academic examiner carries out his gruesome work, she's alternately singing and begging him to stop."
+3	"The examiner's voice is submerged underwater on this track. You catch a medical term and maybe the word [it]rib[rt], followed by a cracking noise and Vali's wet gurgle. Her muddy voice, strangely polyphonic, grows louder. [note inspo]"
+4	"She might be retching, though it sounds more like a hiccup, a body working from memory but no stomach or esophagus to squeeze. You wonder how she's doing it. You wonder if she still has a tongue. The examiner is describing the slow deterioration of her bones and a heart that beats with less enthusiasm every semester. You also hear overlapping voices competing with the examiner's, ranging from fluting to bass. [note pic]"
+5	"The examiner narrates his process as he cuts out her organs, 'as febrile as her landmines' but 'no threat' themselves. 'They form an indecipherable pattern in her interior,' he observes. You hear her wheezing breath, like wind through brushfire. It takes you a minute to realize she's laughing. [note designs]"
+6	"Vali's voice has completely overshadowed the examiner's. She's saying something, but her words elude easy comprehension. [note msgs]"
+7	"'Monster [note oulipo],' she accuses in a raspy death-rattle, 'Monster.'"
+
+Instead of listening to the dictaphone:
+	say "You play the next track:[lb]";
+	repeat through the Table of Dictaphone in index order:
+		say "[voice recording entry][pb]";
+		blank out the whole row;
+		rule succeeds;
+	say "[first time]The digital voice recorder automatically shuts off. [only]You can't seem to turn it back on." 
+
+Playing is an action applying to one visible thing and requiring light. Understand "play [something]" as playing. 
+
+Check playing: 
+	if the noun is not a dictaphone:
+		say "That cannot be played."
+
+Check playing: 
+	if the dictaphone is not visible:
+		say "A recording device is required for playback."
+
+Carry out playing the dictaphone: 
+	try listening to dictaphone instead. 
+
+Chapter 7 - Properties
+
+Section 1 - People
+
+Definition: a person is other if it is not the player. 
+
+The examiner is a man. Vali is a woman. 
+
+Section 1(a) - Informed
+
+A person can be informed or uninformed. The examiner is informed. Vali is informed. The player is uninformed.
+
+After reading the memo: 
+	now the player is informed.
+
+Section 1(b) - Cuttable
+
+A person can be cuttable or uncuttable. A person is usually cuttable.
+
+Section 1(c) - Life and Contagion
+
+A person can be alive, vivisected, or dead. A person is usually alive. 
+
+The player is alive. Vali is vivisected. 
+
+Section 2 - Things
+
+A thing is either cuttable or uncuttable. A thing is usually uncuttable. 
+
+A thing can be examined or unexamined. A thing is usually unexamined. 
+
+After examining something: 
+	now the noun is examined.
+	
+A thing can be distant or near. A thing is usually near.
+
+Instead of doing anything other than examining to a distant thing:
+	say "[The noun] [are] too far away."
+	
+Section 2(a) - Containers
+
+A container can be cuttable. 
+
+After printing the name of a closed unopenable container:
+	omit contents in listing.
+	
+Section 2(b) - Blades
+
+A blade is a kind of thing. The hand auger is a kind of thing. A hand auger is a kind of blade. 
+
+A drawer is a kind of opaque container. A drawer is always openable. 
+
+After printing the name of drawer:
+	omit contents in listing.
+
+After printing the name of wall-drawer:
+	omit contents in listing.
+	
+After printing the name of autopsy table:
+	omit contents in listing.
+	
+After printing the name of cabinet door:
+	omit contents in listing.
+	
+Section 2(c) - Landmines
+
+A landmine is a kind of thing. A landmine can be explosive.
+
+Exploding is an action applying to one thing. Understand "explode [something]" as exploding.
+
+Check exploding:
+	If the noun is not a landmine:
+		say "You can only arm explosives.";
+	otherwise:
+		say "Suicide is a form of resistance. Suicide bombing is a spectacular iteration. You know nothing about the stopping power of these tiny orbs, but you do know that they're active. You do know that the longer you stay here, the more attuned you become to Vali's suffering, and to the ghosts crowding her voice. The more you begin to wonder if your voice, the voice of something you killed out of necessity many years ago, is there among them.[lb]In the grand scheme of things, individual action is never enough, but by yourself, you can do this much.[lb]You locate the tiny button on the orb and press it.[lb]The explosion rips through the room, shrapnel arcing through the air. You collapse, choking on blood, a high-pitched ringing in your ears. You can't hear Vali over it.[lb]Through the cloud of dust, you see your reflection in the remaining shard of the ceiling mirror [unicode 8212] a strange creature you no longer recognize and feel far from, studded with scrap metal, torso ending in a ragged line, legs too far away to reach [unicode 8212] growing larger, larger, until you realize it's not your body that's changing but the ceiling, rushing to meet you.[lb]You hope that the explosion did enough damage to attract public attention. You hope the public does the right thing.[pb][bt]THE END[rt]";
+		end the story finally;
+	rule succeeds.
+		
+Landmine1 is a landmine. 
+Landmine2 is a landmine. 
+Landmine3 is a landmine. 
+Landmine4 is a landmine. 
+Landmine5 is a landmine. 
+Landmine6 is a landmine. 
+Landmine7 is a landmine. 
+Landmine8 is a landmine. 
+Landmine9 is a landmine. 
+Landmine10 is a landmine. 
+	
+Chapter 8 - Understanding Objects
+
+Section 1 - People
+
+Understand "me" or "yourself" or "you" or "self" or "me" or "myself" or "player" or "the player" or "him" or "himself" or "her" or "herself" or "them" or "themselves" as "[self]". 
+
+Understand "patient" or "patient-scholar" or "the patient" or "the patient-scholar" or "body" or "the body" or "cadaver" or "the cadaver" or "corpse" or "the corpse" or "Vali" or "Subject Vali" or "the subject" or "research subject" or "the research subject" or "object of study" or "the object of study" or "your colleague" as "[Vali]".
+
+Understand "the examiner" or "examiner" or "medico-academic examiner" or "the medico-academic examiner" or "coroner" or "the coroner" or "dissector" or "the dissector" or "medical examiner" or "the medical examiner" or "vivisector" or "the vivisector" or "man" or "doctor" or "dr" as "[examiner]".
+
+Section 1(a) - Descriptions of People
+
+The description of the player is "[one of]You're fairly put together, all things considered.[or]You'll have plenty of time to preen later.[stopping]"
+
+The description of the examiner is "[if the examiner is in the Autopsy Room]You can't see much through the vent at the bottom of the door, but you glimpse a white coat, tan slacks with a tapered cuff, brown oxfords wrapped in translucent blue shoe covers.[otherwise]The examiner isn't here right now, but you don't know when he'll back. You better hurry."
+
+Section 2 - Places
+
+Understand "storage closet" or "the storage closet" or "cabinet" or "the cabinet" or "closet" or "the closet" or "medical cabinet" or "the medical cabinet" or "medical storage closet" or "the medical storage closet" or "cupboard" or "the cupboard" as "[Storage Closet]".
+
+Understand "autopsy room" or "the autopsy room" or "operating room" or "the operating room" or "dissection room" or "the dissection room" or "vivisection room" or "the vivisection room" or "the torture chamber" or "torture chamber" or "clinic" or "the clinic" or "sterile room" or "the sterile room" or "safe house" as "[Autopsy Room]".
+
+Understand "minefield" or "the minefield" or "abdominal cavity" or "the abdominal cavity" or "cavity" or "the cavity" or "peritoneal cavity" or "the peritoneal cavity" or "Vali's interior" or "subject's interior" or "research subject's interior" as "[Minefield]".
+
+Section 3 - Things
+
+Understand "drawer" or "the drawer" or "compartment" as wall-drawer.
+
+Understand "plaque" or "the plaque" or "engraving" or "the engraving" or "sign" or "the sign" as plaque.
+
+Understand "dictaphone" or "the dictaphone" or "digital dictaphone" or "the digital dictaphone" or "voice recorder" or "the voice recorder" or "digital voice recorder" or "the digital voice recorder" or "recorder" or "the recorder" or "dvr" or "the dvr" or "voice tracer" or "the voice tracer" or "digital voice tracer" or "the digital voice tracer" as "[dictaphone]".
+
+A thing has some text called printing. The printing of a thing is usually "blank". A notep is a kind of thing. Understand "memo" as a notep.
+
+Chapter 9 - Senses and Thoughts
+
+Understand "pain" or "harm" or "agony" as "[pain]".
+
+Section 1 - Senses in Minefield
+
+Instead of listening to Minefield:
+	choose a random row in Table of Listening;
+	say "You hear [sound entry]."
+
+Instead of smelling in Minefield:
+	choose a random row in Table of Smelling;
+	say "[smell entry]."
+	
+Instead of tasting in Minefield:
+	choose a random row in Table of Tasting;
+	say "Her substrates taste of [taste entry]."
+	
+Instead of touching in Minefield:
+	choose a random row in Table of Touching;
+	say "[touch entry]."
+	
+Section 1(a) - Listening
+
+Table of Listening 
+index	sound
+1	"a soft, weak moan, a whiplash-crack of fire."
+2	"a keening wail, like a mother wailing over the fragments of her child."
+3	"a ripping sound, like an arm degloved from being raked across barbed wire."
+4	"the cheery croaks and burbles of singing fish, before they were silenced by war."
+5	"a thin whistle of air that's meant to pass as a scream."
+6	"faint sobbing."
+7	"an explosion, so close you instinctively recoil."
+8	"a barely audible supplication: [it]aiyo...aiyo...[rt]"
+9	"a resonant ticking, a metronome, a water clock, a time bomb."
+10	"thousands of layered pleas to cease your torture."
+11	"black magic incantations in another language."
+
+Section 1(b) - Tasting
+
+Table of Tasting
+index	taste
+1	"rust and seaweed."
+2	"the mineral, creamy burst of a live sea urchin between the teeth."
+3	"waterlogged ashes chased by the sweetness of unrefined honey."
+4	"the brackish water of a lagoon."
+5	"musk, mycelium, and rice paddy water."
+6	"subway tunnel earth after a substantial rainfall."
+7	"rotting shrimp."
+8	"aged, soured milk."
+9	"almonds: a chewed cyanide capsule, or a C4 vest."
+10	"turmeric packed into an old wound."
+
+Section 1(c) - Smelling
+
+Table of Smelling
+index	smell
+1	"a pungent odor, like wildcat spoor."
+2	"cloying putrefaction."
+3	"the fresh scent of peeled cinnamon bark and resinous agarwood."
+4	"the mildewy smell of an old attic crawling with black mold."
+5	"the faded odor of charred flesh, clinging to the air."
+6	"ozone and burnt hair, the classic smells of cut bone and cautery."
+7	"something sweet and herbaceous, like a flame lily, through the thick metal stench."
+8	"the sweet, musty aroma of dimethyl sulfide."
+9	"the choking stench of cordite and ammonia."
+10	"fragrant indole, more like a jasmine blossom than a stage of decay."
+
+Section 1(d) - Touching
+
+Table of Touching
+index	touch
+1	"a wild flutter where her heart should be."
+2	"a slick, intimate warmth around the absent stomach that threatens to devour you."
+3	"an intricate groundwork of thoracic and abdominal muscle, full of recrimination."
+4	"blood and lymphatic fluid swirl around your fingers in the uterine area."
+5	"a viscous, syrupy glow, clinging strongly to your fingers near the absent appendix."
+6	"the gummy dross of life curdling quickly around your finger, trapping it there like a conqueror's flag."
+7	"scraps of pleura and peritoneal membrane that feel like the materials of leather piecework."
+8	"a knot of muscle, so stiff it feels like bony overgrowth."
+9	"a cluster of raised, rough scabs spread between the iliac crests: .... ..- .-. - ..."
+10	"drips of spongy, gelatinous marrow seeping from the SI joints, which appears to have been accidentally punctured."
+
+
+Part 2 - Perimortem
+
+Chapter 1 - Metadata
+
+Section 1 - Story Data
+
+The story headline is "A digital text adventure, a topographical survey, a chorus of violence[lb][unicode 0169] 2024"
+
+After printing the banner text, say "[lb][bk]First-time players should type [it]about[rt]. For content notes, type [it]warnings[rt]. For hints on how to play, type [it]how to play[rt]. For hints, type [it]help[rt]. A Works Cited list is available via [it]credits[rt].[close bracket][pb]"
+
+The story description is "[bt]perimortem (in theoretical rigor)[rt][lb]A digital text adventure, a topographical survey, a chorus of violence[lb]© 2024 by Vyshali Manivannan[pb]The game you are about to play is excerpted from a keynote address of the same name (itself an excerpt of a much larger digital multimodal project) delivered at the 2024 Computers & Writing (C&W) conference. Ten of the 54 fragments read at C&W are available here in a parser-based format, as it was meant to be experienced. As the full game is a work in progress and has not yet been completed or beta-tested, I appreciate your patience with any glitches I missed.[pb]In keeping with the 'Inventio' section of [it]Kairos[rt], the game world contains reflections on my composing process and my uses of parser IF to enact cultural aesthetics and the experience of collective trauma and chronic pain through craft. These reflections appear as footnotes scattered throughout the game's metadata, descriptive texts, written materials, and endings. Uncovering these reflections requires exploring the environment that surrounds the perimortem autopsy [unicode 8212] a thinly veiled analogy for diasporic-disabled composition processes in Eurocentric-ableist economies of academic writing [unicode 8212] as well as the vivisected research subject herself. You must also confront composing decisions of your own, placing your writerly actions in dialogue with mine.[pb]To paraphrase Octave Mirbeau (1899/1995): To the writers, the scholars, the professors, to those people who educate, instruct, colonize, and standardize, I dedicate these pages of torture and blood.[pb]May I contaminate you yet."
+
+The story creation year is 2024.
+
+The release number is 1.
+
+Section 1(a) - About
+
+Understand "about" as asking for an overview. Asking for an overview is an action out of world.
+
+Carry out asking for an overview:
+	say "[lb][bt]Synopsis[rt][lb]That every university has a safe house for the reeducation of radicalized scholars is an open secret. After all, dissidents pose a threat to the survival of the academic community. You had faith in this mandate, but you weren't sure such spaces really existed until now [unicode 8212] now that you've snuck into one and are witnessing the examination of a colleague for yourself, the mysteries and abominations of her flesh exposed and aglow with energy channels and landmines.[lb]In the safe house, the only currency is pain, but its inflictions and self-inflictions are untethered from logic. Using a wounding/damage system, your observations, and your wits, you must decide whether to cut and remove the landmines from the research subject's interior for access to the text, 'curing' her through surgical intervention and advancing your own research; leave her intact and anomalous, precluding access to the text and guaranteeing her disappearance; or compromise by exposing the landmines without taking them, accessing the text without seeking cure.[lb]You won't learn anything unless you cut her, but you might not be immune to her contagion. You don't know how long it takes for a body to incubate a minefield. You can't turn back now. [note abstract][lb]"
+
+Section 1(b) - How to Play
+
+Understand "how to play" as asking for how to play. Asking for how to play is an action out of world.
+
+Carry out asking for how to play:
+	say "[lb][bt]How to Play[rt][lb][it]perimortem[rt] is a parser-based game, an interactive fiction (IF) format in which the player types commands that the game parses and uses to update the game world. Most commands take the form of <verb><noun> or <verb>. Movement in IF usually follows the compass directions, as well as any other directions defined in the game world.[lb]Standard in-game actions that you're likely to use include:[pb][unicode 8226] LOOK (l)[lb][unicode 8226] EXAMINE (x) <noun>[lb][unicode 8226] WAIT (z)[lb]
+[unicode 8226] GO <direction>[lb][unicode 8226] TAKE <noun>[lb][unicode 8226] CUT <noun> WITH (HAND) AUGER[lb][unicode 8226] READ <noun>[lb][unicode 8226] WRITE <text> (in research journal)[lb][unicode 8226] FOOTNOTE or NOTE <number> (when prompted by '[bk]#[cb]')[lb][unicode 8226] CONTINUE (in the Minefield only)[pb]Out of game actions include INVENTORY <inv>, SAVE, and RESTORE.[lb]Your route within the minefield inside the autopsied subject, from one suspicious [it]pulli[rt] (point) to the next, diagrams the geometric notation of a 21x21 kolam, in the direction the line follows to enclose each pulli without retracing itself or doubling back.[lb]Your environment will provide you with signs. Examine your surroundings. Read written material. Listen to recordings. Attempt to take interesting items. Take notes in your research journal or reflect on your own composition practices. Wait or repeat actions to find out if anything different happens. Attend to the status bar. Don't expect to uncover the entire composition in any one playthrough, even if you complete it in a single session. There are no puzzles or solutions, just the willingness to submit to the experience of play's joys and tortures. Experiment. The design [it]varum[rt] (will come)."
+
+Section 1(c) - Warnings
+
+Understand "warnings" as asking for warnings. Asking for warnings is an action out of world.
+
+Carry out asking for warnings:
+	say "[lb][bt]Content Notes[rt][lb]This game contains allusions to or descriptions of ableism, armed conflict, bodily fluids, bombs, cutting, genocide, intergenerational trauma, racism, sexual violence, suicidal ideation, and torture. Brief content notes will appear before footnotes and pulli text in the Minefield that contains potentially sensitive content. Player discretion is advised."
+
+Section 1(d) - Credits
+
+Understand "credits" as asking for credits. Asking for credits is an action out of world.
+
+Carry out asking for credits:
+	say "[lb][bt]Credits and Acknowledgments[rt][pb]Concept, design, code, and writing by: Vyshali Manivannan [unicode 0169] 2024[lb]Written using the Inform programming language, created by Graham Nelson <http://www.inform-fiction.org>[pb]This text is dedicated to everyone who has been chopped up by colonialism and its eager servant, academia, made to discredit and disavow their cultural, embodied composition practices and collective histories of trauma and feign belief that the university is apolitical [unicode 8212] and especially to diaspora Eelam Tamil, Tamil, and South Asian rhetoricians in the U.S., who can visibly exist in the field with impunity as long as their traditional epistemologies do not. I want to imagine restoration with you.
+
+[bt]Works Cited (for 54 Pulli Texts)[rt] 
+
+Aarseth, E. J. (1997). [it]Cybertext: Perspectives on ergodic literature[rt]. Johns Hopkins University Press.
+
+Ahmed, S. (2017, November 10). Complaint as diversity work. [it]Feminist Killjoys[rt]. https://feministkilljoys.com/2017/11/10/complaint-as-diversity-work/ 
+
+Arola, K. L. (2018). A land-based digital design rhetoric. In J. Alexander & J. Rhodes (Eds.), [it]The Routledge handbook of digital writing and rhetoric[rt] (pp. 199–213). Routledge.
+
+Banerjee, P. (2004). Aesthetics of navigational performance in hypertext. [it]AI & Society[rt], (18), 297–309. https://doi.org/10.1007/s00146-004-0296-z 
+
+Calvino, I. (1986). [it]The uses of literature[rt]. Harcourt Brace & Company.
+
+Canagarajah, S. (2024). Decolonizing academic writing pedagogies for multilingual students. [it]TESOL Quarterly, 58[rt](1). https://doi.org/10.1002/tesq.3231 
+
+Carse, J. (2013). [it]Finite and infinite games[rt]. Free Press.
+
+Daniel-Wariya, J., & Sanchez, J. C. (2019). Race within the machine: Ambient rhetorical actions and racial ideology. In J. Jones & L. Hirsu (Eds.), [it]Rhetorical machines: Writing, code, and computational ethics[rt] (pp. 137–161). University Alabama Press.
+
+Fuhrman, C. (2021, October 7). A poem to acknowledge that the land itself [unicode 8212] along with the people whose language, culture and religion were born of it [unicode 8212] is rarely acknowledged. [it]Inlander[rt]. https://www.inlander.com/comment/a-poem-to-acknowledge-that-the-land-itself-along-with-the-people-whose-language-culture-and-religion-were-born-of-it-is-rarely-acknowledg-22469536 
+
+Haas, A. M. (2007). Wampum as hypertext: An American Indian intellectual tradition of multimedia theory and practice. [it]Studies in American Indian Literatures (SAIL), 19[rt](4), 77–100.
+
+Kannabiran, G., & Reddy, A. V. (2022). Exploring kolam as an ecofeminist computational art practice. [it]C&C ’22: Proceedings of the 14th Conference on Creativity and Cognition[rt]. ACM Digital Library. https://dl.acm.org/doi/10.1145/3527927.3531452 
+
+Khúc, M. (2024). [it]dear elia: Letters from the Asian American abyss[rt]. Duke University Press.
+
+Knuth, D. (2006). [it]The art of computer programming (Vol. 4)[rt]. Addison-Wesley.
+
+Maier, S., Hsu, V. J., Cedillo, C. V., & Yergeau, M. R. (2020). GET THE FRAC IN! Or, the fractal many-festo: A (trans)(crip)t. [it]Peitho, 22[rt](4).
+
+Mall, A. S. (2007). Structure, innovation and agency in pattern construction: The kolam of southern India. In E. Hallam & T. Ingold (Eds.), [it]Creativity and cultural improvisation[rt] (pp. 55–78). Routledge. https://doi.org/10.4324/9781003135531 
+
+Mirbeau, O. (1995). [it]Torture garden[rt] (M. Richardson, Trans.). Dedalus. (Original work published 1899)
+
+Nagarajan, V. (2019). [it]Feeding a thousand souls: Women, ritual, and ecology in India—An exploration of the kolam[rt]. Oxford University Press.
+
+Psarra, S. (2018). [it]Venice variations: Tracing the architectural imagination[rt]. UCL Press.
+
+Sarin, A. (2022). The kolam drawing: A point lattice system. [it]Design Issues, 38[rt](3), 34–54. https://doi.org/10.1162/desi_a_00690
+
+Scarry, E. (1985). [it]The body in pain: The making and unmaking of the world[rt]. Oxford University Press.
+
+Socialist Patients’ Collective (SPK). (1987). [it]Turn illness into a weapon[rt]. KRRIM.
+
+Suressh, L. (2021). Kolam in code. [it]Critical Coding Cookbook: Intersectional Feminist Approaches to Teaching and Learning[rt]. https://criticalcode.recipes/contributions/kolam-in-code 
+
+Trammell, A. (2023). [it]Repairing play: A Black phenomenology[rt]. MIT Press.
+
+Tuck, E., & Ree C. (2013). A glossary of haunting. In S. H. Jones, T. E. Adams, & C. Ellis (Eds.), [it]Handbook of autoethnography[rt] (pp. 639–658). Left Coast Press."
+
+Section 1(e) - Hints
+
+When play begins:
+	now mn_master_title is "";
+	now mn_modes_allowed is "menu only";
+	now mn_master_table is the Table of Omniscience;
+
+Understand "hint" or "help" or "hints" as asking for help.  Asking for help is an action out of world. 
+
+Carry out asking for help:
+	carry out the displaying activity;
+	clear the screen;
+	try looking;
+	
+Table of Omniscience
+title	subtable	description	used	bookpage	localpage
+"Hints for Beginners"	Table of Newbies	"New"
+"Hints for the Storage Closet"	Table of Storage Closet	"Exiting Storage Closet"
+"Hints for the Autopsy Room"	Table of Autopsy Room	"Exiting Autopsy Chamber"
+"Hints for the Minefield"	Table of Minefield	"Exiting Minefield"
+"Possible Endings"	Table of Possible Ends	"Possible Endings"
+
+Table of Newbies
+title	subtable	description	used	bookpage	localpage
+"How should I engage with [it]perimortem[rt]?"	Table of Hinting	"The point of [it]perimortem[rt] is experiencing reading and writing as obstacles to the scholarly endeavor. The following hints might help make things clearer, but relying on them too heavily will defeat the purpose of the game.[pb]While these hints are primarily for novice players, who might become unduly confused by parser IF conventions, I recognize that anyone might want to bypass a difficult puzzle: for reasons of time constraints, excessive frustration, or the desire to advance the narrative. Additionally, hints in text adventures often provide additional context for the composer's design process: that is, what they anticipate in their audience.[pb]I encourage players to explore as much as they can on their own, but there's no shame in occasionally checking the hint menu. In a sense, the hint menu is a paratextual experience, so completing [it]perimortem[rt] might mean reading all the hints, whether during or after play."
+"hint"	--	"To keep a copy of the text you produced through your individualized play, save the session transcript file (.txt) when prompted at the start of play."
+"hint"	--	"If you encounter a number in brackets (e.g., [bk]1[cb]), type 'footnote' or 'note' followed by the bracketed number ('note <number>') for an 'Inventio' reflection."
+"hint"	--	"Typing 'about' and 'how to play' will give you important information about the game's purpose and primary commands."
+"hint"	--	"The status bar at the top of the screen includes your hit points, or HP (left), your current location (center), and Vali's hit points (right). Pay attention to how each HP number changes when you inflict or express pain or appropriate Vali's landmines."
+"hint"	--	"Indulge curiosity. 'Look' in rooms. 'Examine' things, especially when they are named in descriptions. 'Unlock' (or 'lock') doors. 'Read' objects with writing on them. 'Write' to record text in your journal. 'Smell,' 'touch,' and 'taste' things. 'Listen.'"
+"hint"	--	"'Take' things, but know that you can't take everything with you, and sometimes taking has consequences."
+"hint"	--	"If you need to check your inventory, type 'inventory.'"
+"hint"	--	"Error messages can be narratively and theoretically informative. Try entering text the parser won't recognize."
+"hint"	--	"When the parser output repeats itself, it usually means you've exhausted the action, but sometimes it's worth entering the command once more [unicode 8212] just in case."
+"hint"	--	"The 'write' command can record up to 20 words at a time, but consecutive 'write <text>' commands will roughly concatenate these strings in the journal."
+"hint"	--	"Since you can't undo your actions, save your game ('save') so you can restore it ('restore') if you meet an early or undesirable end."
+"hint"	--	"There are three places to explore in [it]perimortem[rt]: the Storage Closet, where you begin; the Autopsy Chamber, the subsequent room; and the Minefield, a region containing many rooms whose structure and elements are the same."
+
+Table of Storage Closet
+title	subtable	description	used	bookpage	localpage
+"What am I supposed to do in the Storage Closet?"	Table of Hinting	"You can't safely exit the storage closet until the medico-academic examiner has left the autopsy chamber. You can't actively compel him to leave, either. But there's plenty to investigate inside the storage closet while you're waiting for something to happen."
+"hint"	--	"As long as the examiner is in the autopsy chamber, you'll receive information about what he's doing every turn, whether you perform an action or wait."
+"hint"	--	"Try looking at the storage closet ('look') five times."	
+"hint"	--	"Try examining the memo ('x memo')."
+"hint"	--	"Reading all three pages of the memo ('read memo' x3) will give you important background information."
+"hint"	--	"You can't reread the memo once you've finished, but you can take it with you for posterity."
+"hint"	--	"Try examining the cabinet door ('x cabinet door') and its latch ('x latch')."
+"hint"	--	"Try unlocking the cabinet door ('unlock door' or 'turn latch') while the examiner is in the autopsy chamber."
+"hint"	--	"Try examining the bag ('x bag') twice."
+"hint"	--	"If the examiner is still outside, try waiting ('wait' or 'z')."
+"hint"	--	"The examiner will leave on his own after eight turns."
+"hint"	--	"Try unlocking the cabinet door ('unlock door' or 'turn latch') after the examiner leaves."
+"hint"	--	"If you encountered any footnotes, did you remember to type 'note <number>' for an 'Inventio' reflection?"
+
+Table of Autopsy Room
+title	subtable	description	toggle	used	bookpage	localpage
+"What am I supposed to do in the Autopsy Room?"	Table of Hinting	"There are more objects to engage with in the autopsy room. Some objects are subtly mentioned in room descriptions; other objects reject interaction. Some objects will help you surmount certain obstacles.[pb]The following hints identify some of these important objects and their locations, but I encourage you to first try exploring and puzzle-solving on your own."
+"hint"	--	"Try looking at the autopsy room ('look') five times."
+"24 Hr Lockdown"	Table of Lockdown	"Securing the Door"	--
+"hint"	--	"To initiate playback of dictaphone recordings, try 'play dictaphone' or 'listen to dictaphone.'"
+"hint"	--	"There are seven tracks on the dictaphone; try playing it seven times ('play dictaphone' or 'listen to dictaphone' x7)."
+"hint"	--	"Try examining the autopsy table ('x autopsy table') three times."
+"hint"	--	"The report labeled KOLAM441 contains eight distinct files ('read KOLAM441' x8)."
+"hint"	--	"You need a multipurpose cutting and drilling implement to access the minefield."
+"hint"	--	"Try examining the instrument tray ('x instrument tray)."
+"hint"	--	"After taking the hand auger, try cutting Vali ('cut Vali with hand auger')."
+"hint"	--	"Try screaming ('scream'), then check the status bar."
+"hint"	--	"To enter the minefield, you have to descend ('go down'). Once you've entered the minefield, you won't be able to exit it, so don't do this until you're finished exploring."
+"hint"	--	"If you encountered any footnotes, did you remember to type 'note <number>' for an 'Inventio' reflection?"
+
+Table of Lockdown
+title	subtable	description	toggle	used	bookpage	localpage
+"How do I secure the Autopsy Room?"	Table of Hinting	"Since you don't know when the examiner is coming back, you should take measures to lock him out for now, starting with looking for a door ('look')."
+"hint"	--	"Try examining the electronic door ('x electronic door')."
+"hint"	--	"Try examining the keypad ('x keypad')."
+"hint"	--	"Try examining the drawers on the wall ('x wall of drawers' or 'x drawer') two times."
+"hint"	--	"Try examining the contents of the open drawer ('x file' or 'x KOLAM441')."
+"hint"	--	"Try examining the keycard ('x keycard') and picking up the keycard ('take keycard')."
+"hint"	--	"Try typing the code on the keycard on the keypad of the electronic door ('type 071983')."
+"hint"	--	"If you encountered any footnotes, did you remember to type 'note <number>' for an 'Inventio' reflection?"
+
+Table of Minefield
+title	subtable	description	used	bookpage	localpage
+"What am I supposed to do in the Minefield?"	Table of Hinting	"The minefield consists of 10 pulli (points), which are understood as rooms and are similarly structured. Each contains a numbered nodule; each nodule contains a landmine with a modified serial number of commonly used mines in Sri Lanka. The 'legitimate' scholarly text is attached to these points.[pb]The following hints clarify how to read the text attached to each landmine, as well as other significant actions that can be taken in the minefield."
+"hint"	--	"To move from one pulli to the next, type 'continue.'"
+"hint"	--	"Try looking at each pulli ('look')."
+"hint"	--	"Try examining the nodule ('x nodule <number>')."
+"hint"	--	 "Did you cut the nodule ('cut nodule <number> with auger')? Did you examine the nodule again after cutting it? "
+"hint"	--	"After cutting the nodule open, try examining its contents ('x <serial number of the landmine within>')."
+"hint"	--	"After you've examined the landmine, try taking it ('take <serial number of landmine>')."
+"hint"	--	"You can take notes in your journal ('write <text>,' up to 20 words at a time)."
+"hint"	--	"If you encountered any footnotes, did you remember to type 'note <number>' for an 'Inventio' reflection?"
+
+Table of Possible Ends
+title	subtable	description	used	bookpage	localpage
+"Death, where is thy sting?"	Table of Hinting 	"This demo game only has a few possible endings, but they can be triggered in multiple ways. For 'completionist' players, the following hints identify these triggers. The names of these endings reference literature, mythology, and games discussed in the text."
+"hint"	--	"To achieve the 'I Would Prefer Not To' ending, say 'no' after launching the game, when the command line prompts 'Begin (Yes/No).'"
+"hint"	--	"To achieve the 'Chatterer' ending, when you're in the Storage Closet, talk to the examiner three times."
+"hint"	-- 	"To achieve the 'There Is No Escape' ending, unlock the electronic door with the keycard ('unlock electronic door with keycard') two times."
+"hint"	--	"To achieve the 'Burden Me Not With Thy Poetry' ending, enter an incorrect code into the keypad of the electronic door ('type <number>') three times, then wait for 15 turns."
+"hint"	--	"To achieve the 'An Immense Shakti' ending, cut Vali ('cut Vali with auger') ten times."
+"hint"	--	"To achieve the 'A Horrible Night for a Curse' ending, when you're in the Autopsy Room, scream ('scream') ten times."
+"hint"	--	"To achieve the 'For Everlasting Peace' ending, try suicide bombing in the minefield ('take <serial number of landmine>,' 'explode <serial number of landmine in inventory>.'"
+
+Section 2 - Banner Text
+
+The display banner rule is not listed in the startup rulebook.
+
+Chapter 2 - Opening
+
+Section 1 - Authentication
+
+Authentication is a scene. Authentication begins when play begins. Authentication ends successfully when password guess is the password.
+
+Authentication ends unsuccessfully when password guess is not the password and password attempts >= max password attempts.
+
+The password is always "yes". Password guess is initially "". Max password attempts is always 2. Password attempts is initially 0.
+
+When authentication begins:
+	say "[story description][it][lb][pb]Press any key + save to autosave your full game session transcript as a local *.txt file (recommended). Otherwise, press any key + cancel to proceed.[rt]";
+	wait for any key;
+	clear screen;
+	now the command prompt is "Begin (Yes/No)? > ".
+	
+Instead of looking during authentication:
+	do nothing.
+	
+After reading a command during authentication:
+	now password guess is "[the player's command]" in lower case;
+	now password attempts is password attempts + 1;
+	follow the scene changing rules;
+	if authentication is happening, say "Are you sure?";
+	reject the player's command.
+	
+When authentication ends:
+	now the command prompt is "> ".
+	
+When authentication ends successfully:
+	clear the screen;
+	say "[pb]'11:13 a.m., Saturday, June 22nd. Commencing perimortem autopsy on research subject Vali, a South Asian American woman in her early forties, charged with acts of terrorism and affective contagion, crimes of anti-colonialism, anti-ableism, general difference, and various other offenses against medical and academic institutions...'[lb]";
+	wait for any key;
+	say "[lb]The clink of a metal tool against a metal tray. The medico-academic examiner's long-suffering sigh.";
+	wait for any key;
+	say "[lb]'Right. Subject is prepped, hollowed, in stasis, supine, and sensate. Commencing prescreening procedure.'";
+	wait for any key;
+	say "[lb]You can't see anything from where you're hiding in the medical storage closet, but you're spared no nuance when Vali begins to feebly scream.[lb]";
+	wait for any key;
+
+When authentication ends unsuccessfully:
+	clear the screen;
+	say "You hesitate at the door, debating whether or not to take that fateful step across the threshold. But you weigh the potential consequences (censure? probation? disappearance? vivisection?) for too long. You barely register the reflection of the medico-academic examiner's reflection in the steel door before you feel the prick in your neck.";
+	perform Ending B.
+	
+Preface is a scene. Preface begins when authentication ends successfully. Preface ends when preface is happening.
+
+Section 2 - Preface Scene
+
+When preface begins:
+	say "[banner text]";
+	
+When preface ends:
+	now the player is in the Storage Closet.
+	
+Chapter 3 - Clinic
+
+Clinic is a region. Storage Closet is a room in Clinic. Autopsy Room is in Clinic. 
+
+Chapter 4 - Storage Closet
+
+The description of Storage Closet is "[one of]The dark interior of the standing steel storage closet is broken only by five narrow slats of light at your feet, courtesy of the metal louver insert mounted at the top of the door. You're surprised you managed to fit into this cramped space. The examiner, the man who surprised you into hiding, is no longer moving around, but you hear him recording his observations in a formal monotone.[or]The storage closet is built like a school locker, tall and narrow, barely large enough for an adult to fit inside. You had to contort yourself to fit. The edges of two small adjustable shelves cut into your body, but you don't dare to move.[or]As your eyes adjust to the light, you notice dark streaks that could be rust or old blood. As your nose adjusts to the odor of the vivisection in the autopsy chamber outside, you begin to detect the smell of decay in here with you.[or]Your body is beginning to ache from holding still.[or]Deep breaths. You got this. Discovery awaits.[stopping]"
+
+Instead of examining Storage Closet:
+	if player is not in Storage Closet:
+		say "With its doors shut, the medical storage closet looks rather unassuming.";
+	otherwise:
+		do nothing.
+
+Section 1 - Cabinet Door
+
+The cabinet door is a door. It is north of the Storage Closet and south of the Autopsy Room. It is lockable and locked.
+
+Understand "cabinet door" or "closet door" or "storage closet door" or "steel door" as the cabinet door.
+
+The description of cabinet door is "A tall steel cabinet door that latches shut. [if the player is in the Storage Closet]The door is currently latched shut from the inside.[otherwise if the door is open]The door is currently open[end if]."
+
+The latch is part of the cabinet door. The description of the latch is "A tarnished rotary mechanism with a graspable tab that can be turned to lock the cabinet door." 
+
+Understand "lock" or "knob" as the latch. 
+
+Before opening the cabinet door:
+	try silently unlocking keylessly the cabinet door;
+	stop the action. 
+
+Before locking keylessly the cabinet door:
+	try silently closing the cabinet door;
+	stop the action. 
+	
+Section 1(a) - Locking and Unlocking Keylessly
+
+Before unlocking keylessly the cabinet door:
+	if the cabinet door is unlocked, say "[The cabinet door] is already unlocked." instead;
+	try turning the latch instead.
+	
+Before locking keylessly the cabinet door:
+	if the cabinet door is locked, say "[The cabinet door] is already secure." instead;
+	try turning the latch instead.
+
+Before locking the cabinet door with something:
+	say "Luckily for you, the cabinet door locks with a latch, not a key." instead.
+
+Before unlocking the cabinet door with something:
+	say "Luckily for you, the cabinet door locks with a latch, not with a key." instead.
+
+Instead of turning the latch when the examiner is in the Autopsy Room:
+	if the cabinet door is locked begin;
+		say "Step out now, and you'll be promptly caught and harshly punished.";
+	otherwise;
+		say "You think you hear the examiner out there; you'd better wait.";
+	end if.
+	
+Instead of turning the latch when the examiner is nowhere:
+	say "The cabinet door opens.";
+	now the cabinet door is open;
+	now the player is in the Autopsy Room.
+
+After printing the name of a closed door:
+	omit contents in listing.
+	
+Section 2 - Memo
+
+The memo is in Storage Closet. The description is "A photocopied memo, titled [it]Perimortem Autopsy and Analysis Procedures[rt], is taped to the cabinet door. The door vent provides just enough light to read it." 
+
+Instead of reading the memo:
+	say "You read a page of the memo:[pb]";
+	repeat through the Table of Storage Closet Memo in index order:
+		say "[memo response entry][pb]";
+		blank out the whole row;
+		rule succeeds;
+	now the player is informed;
+	say "You can pore over its contents again later."
+	
+After taking the memo:
+	say "You peel the flyer from the door and tuck it into your pocket.";
+	now the printed name of the memo is "Protocol Memo";
+	now the player is carrying the memo.
+
+Section 3 - Bag of Organs
+
+A bag of organs is a thing in Storage Closet. The printed name of the bag is "plastic bag". The description of the bag is "[one of]A bag, closed and sealed with a red biohazard sticker, flattened out like a beached jellyfish. An unpleasant odor wafts from it.[or]The smell of metal and excrement is overpowering. A biohazard sticker label reads:[pb]'Subject: Vali. Contents: Organ bloc. Destroy by: TBD.'[pb]You'd never guess that the owner of this plastic-wrapped offal is [unicode 8212] was? [unicode 8212] a scholar. [note organs][stopping]"
+
+Instead of taking the bag of organs:
+	say "With only a thin plastic membrane separating you from her contagion? Absolutely not.";
+	reject the player's command.
+
+Chapter 3 - Autopsy Room
+
+Understand "Autopsy Chamber" as "[Autopsy Room]". The description of Autopsy Room is "[one of]You find yourself back in the autopsy chamber, a circular room with a floor tiled in radial spokes emanating from a panoptic center. The glossy white sterile walls are inset with hundreds of drawers. The freestanding steel storage cabinet you were just hiding in abuts one wall.[pb]In the center of the room stands an autopsy table, Vali's body lying on it.[or]The electronic door by which you originally entered the autopsy chamber is on the east side of the room. You don't plan on leaving until you get the data you came for, but it might be a good idea to secure the room somehow and buy yourself a little more time.[or]A mosaic pattern on the floor depicts some kind of surgical procedure. Blood drips steadily from the autopsy table into a sluice drain in the floor. [note floor][or]The ceiling is patterned with concentric circles and, oddly, a mirror. You can clearly see the mottled pink, red, white, and yellow of Vali's interior, along with a bright glow. Your own shadow casts a dark stripe across it, your awestruck face beside her.[pb]It seems that, to access the minefield, you have to effectively 'go down' into the subject's interior, with the auger in hand.[or]Some distortion of the ceiling mirror makes your face look small and wizened, and Vali's interior as lively as a forbidden garden.[stopping]"
+		
+Section 1 - Electronic Door, Keypad and Combo
+
+Electronic door is a closed, unlocked door. Electronic door is scenery in Autopsy Room. Electronic door is west of Autopsy Room. Through it is the University Campus.
+
+The description of the electronic door is "A reinforced stainless steel door with a keycard reader and a keypad."
+
+Electronic door has a text called the combo. 
+
+Understand "electronic door" or "exit" as the electronic door.
+
+The keypad is part of the electronic door. The description of keypad is "A keypad with a touchscreen."
+
+When play begins:
+	now the combo of the electronic door is "071983".
+	
+KeypadAuth is a scene. KeypadAuth begins when the keypad is examined. KeypadAuth ends successfully when combo guess is the combo of the electronic door.
+
+The combo of the electronic door is always "071983". Combo guess is initially "". Max combo attempts is always 1. Combo attempts is initially 0.
+
+When KeypadAuth begins:
+	now the command prompt is "6-Digit Code > ".
+	
+When KeypadAuth ends:
+	now the command prompt is "> ".
+
+Instead of looking during KeypadAuth:
+	do nothing.
+	
+After reading a command during KeypadAuth:
+	now combo guess is "[the player's command]" in lower case;
+	now combo attempts is combo attempts + 1;
+	follow the scene changing rules;
+	if authentication is happening, say "ERROR";
+	reject the player's command.
+	
+When KeypadAuth ends successfully:
+	say "The keypad beeps and flashes red. An electronic voice informs you: '24-hour lockdown sequence initiated.'";
+	now the electronic door is locked.
+
+KeypadAuth ends unsuccessfully when combo guess is not the combo of the electronic door and combo attempts >= max combo attempts.
+
+When KeypadAuth ends unsuccessfully:
+	say "The keypad reads: 'UNRECOGNIZED. NO NEW ENTRIES PERMITTED FOR 24 HRS.'[lb]So much for ensuring your uninterrupted privacy.";
+	now the keypad is scenery;
+	now the electronic door is scenery.
+	
+Typing on it is an action applying to one number and one thing. Understand "type [a number] on [something]" as typing on it.
+
+Check typing on it:
+	if the second noun is not the electronic door:
+		instead say "You can't do that to [the second noun].";
+	if the second noun is locked:
+		instead say "[The second noun] is locked."
+	
+Carry out typing on it:
+	if the text is the combo of the electronic door:
+		say "The keypad beeps and flashes red. An electronic voice informs you: '24-hour lockdown sequence initiated. If engaged in error, the sequence may be aborted with a Clearance III keycard.";
+		now the electronic door is locked;
+	otherwise:
+		say "The keypad flashes: 'ERROR - Lockdown already engaged.'"
+		
+Security Check is a scene. Security Check begins when KeypadAuth ends unsuccessfully. 
+
+When Security Check begins:
+	the examiner shows up in four turns from now.
+
+At the time when the examiner shows up:
+	move the examiner to Autopsy Room;
+	say "The electronic beep and soft mechanical whir of a well-oiled motor is your only warning before the door opens. The medico-academic examiner stands there.";
+	now the player is dead;
+	perform Ending B.
+	
+Section 1(a)- Keycard
+
+Before examining KOLAM441 for the first time:
+	say "A keycard tucked into the file clatters to the floor.";
+	now the keycard is in the location of the player;
+	now KOLAM441 is available.
+	
+The keycard is a thing. The printed name of the keycard is "Deminer Access Keycard (Clearance III)".
+
+Understand "card" or "key" or "deminer access keycard" or "deminer access card" or "NFC card" as keycard.
+
+The description of the keycard is "[if unexamined]A black plastic card with a silver stripe and NFC chip.[otherwise]A code is written on a sticky note on the back: '071983.'"
+
+Carry out taking keycard:
+	say "You pick up the keycard. A handwritten Post-It stuck to the back reads: 'Deminer Access Card (Clearance III). Code for temporary lockdown from inside: 071983.'[lb]It must have been among Vali's personal effects when she was subdued. [note keyc][lb]"
+
+Carry out using something on something:
+	if the noun is the keycard:
+		if the player carries the keycard:
+			if the second noun is the electronic door:
+				now the electronic door is unlocked;
+				perform Ending B;
+			otherwise:
+				say "You can't use the keycard there.";
+		otherwise:
+			say "The keycard is programmed to work with the electronic door.";
+	otherwise:
+		say "Specificity of action goes a long way."
+		
+Instead of unlocking electronic door with keycard one time:
+	say "A bio break already? Didn't you perfect the ability to ignore your bodily needs a long time ago?"
+
+Instead of unlocking electronic door with keycard two times:
+	now the player is dead;
+	say "With the hubris of many of your peers, you disengage the electronic lock and open the door.[lb]As you might have guessed if you stopped to think about it, the lockdown measure set off a silent alarm; several security guards were just lying in wait for you to emerge. You have just enough time to reflect on your foolishness before a blow to the head steals the light from your eyes.";
+	perform Ending B.
+
+Section 2 - Wall of Drawers
+
+The wall of drawers is scenery in the Autopsy Room. The description of the wall of drawers is "Thousands of drawers span the circular autopsy chamber, extending from floor to ceiling, each labeled with a string of letters and numbers."
+
+Understand "wall" or "the wall" or "the wall of drawers" or "wall of drawers" as wall of drawers. Understand "drawer" as wall-drawer. 
+
+Instead of examining wall of drawers:
+	say "One of the wall drawers is ajar. A slip of white paper tucked into a metal label holder reads: 'Subject: Vali.' [note suggestion][lb]"
+	
+There is a wall-drawer in Autopsy Room. The wall-drawer is open. The printed name of wall-drawer is "open drawer on the wall". The description is "[if unexamined]The white drawer has the high-gloss finish of a clean room and contains several hanging folders, one of which appears to have been recently accessed.[otherwise]The first hanging folder in the drawer holds a typed report with clear laminate covers, bound with brads."
+
+Instead of closing the wall-drawer:
+	if the wall-drawer is open:
+		say "You should leave it the way you found it.";
+		do nothing;
+	otherwise:
+		say "You should leave it the way you found it."
+
+KOLAM441 is in the wall-drawer.
+
+Section 2(b) - Clock
+
+A clock is scenery in Autopsy Room. The description of the clock is "[first time]An analog wall-mounted clock with a white face and black numerals, hands, and rim. [only]The hands read [the time of day]."
+
+Instead of examining the clock for the fourth time:
+	say "Persistent, aren't we?"
+
+Instead of examining the clock for the fifth time:
+	say "The battery cover falls off. Wedged between two double AA batteries is a folded Post-It.";
+	now the post-it is in the location of the player;
+	now the post-it is unmarked for listing.
+	
+Instead of taking the clock:
+	say "You can keep track of time better if it stays on the wall."
+
+Rule for implicitly taking something:
+	follow the advance time rule;
+	continue the activity. 
+
+The description of Post-It is "A hastily written, rolled-up handwritten note, no longer than an AA battery."
+
+Instead of reading Post-It:
+	say "You unfold the note...[lb]...but you'll have to wait for the full game to be released if you want to find out more."
+
+Instead of examining Post-It for the second time:
+	try reading Post-It.
+
+Section 3 - Autopsy Table 
+
+The autopsy table is an enterable scenery supporter in Autopsy Room. The description is "[one of]An adjustable height, L-shaped, stainless steel pedestal autopsy table stands in the center of the room, Vali's naked, vivisected body stretched out on it in a posture of death. The table's gleaming surface is streaked with blood.[or]There's a water faucet and waste disposal attached to the table, and a metal plaque mounted on one side. An instrument tray sits on the sanitary arm of the table. A digital dictaphone, currently switched off, swings suspended above it, while a clock ticks away on the wall.[or]Vali's eyes are open and focused on the ceiling; her open torso commiserates with its reflection above. You barely recognize her in her current predicament.[stopping]"
+
+Understand "table" and "autopsy table" and "the autopsy table" as autopsy table.
+	
+Section 3(a) - Dictaphone
+
+There is a dictaphone in the Autopsy Room. The dictaphone is fixed in place. The description of dictaphone is "[one of]A dictaphone, its wrist strap knotted around the surgical light positioned over Vali's body, dangles over the autopsy table.[or]On closer inspection, you see that the dictaphone has battery power remaining. You can begin playback with the earliest recording.[stopping]"
+
+After examining the dictaphone:
+	now the printed name of the dictaphone is "digital dictaphone".
+
+Section 3(b) - Plaque, Tray, Auger
+
+An engraved plaque is part of the autopsy table. The description of engraved plaque is "[if unexamined]A plaque on the side of the autopsy table is cryptically engraved with two words: 'SAFE HOUSE.' [otherwise]The engraved plaque reads 'SAFE HOUSE.'"
+
+A supporter called an instrument tray is part of the autopsy table. The description of instrument tray is "A dirty instrument tray rests on the autopsy table, empty except for a hand auger precariously balanced across its edge."
+
+Instead of taking instrument tray:
+	say "It's more convenient to leave it where it is.";
+	do nothing.
+
+There is a hand auger in the Autopsy Room. On the instrument tray is a hand auger. The description of the hand auger is "A small corkscrew drill with a carpenter's brace for boring precise holes by hand, its bit caked with dried blood. [note hauger]"
+
+Section 3(c) - Cadaver Occupancy Limit
+
+An autopsy table has a number called the actor carrying capacity. The actor carrying capacity of an autopsy table is usually one.
+
+Check an actor entering an autopsy table when the number of people on the noun is at least the actor carrying capacity of the noun:
+	say "[The list of people on the noun] [are] already lying there." instead.
+
+Section 3(d) - Vali
+
+Vali is in the Autopsy Room. Understand "subject" and "the subject" as Vali.
+
+The description of Vali is "[one of]A body arrested between life and death, bleeding and twitching.[or]The body's brown skin has acquired an ashen undertone. Her pallor suggests blood loss and extreme pain. [note vbody][or]You almost imagine a heartbeat, thumping resonantly in the black cavern of her chest.[or]A twitch of her right foot startles you. Some new phase of vivisection or stasis setting in?[or]She isn't actively gushing blood right now, but you hear blood sluicing through the autopsy table's drain; the smell, too, seems sharper, more copper than decay, more live than dead.[or]Somehow, her hollow chest moves, as though with breath. You rest your hand on her thigh. Her muscles are stiff [unicode 8212] she can't be in rigor, so perhaps involuntarily guarding?[or]You feel a deep, steady pulse when you take her wrist. You know she's dangerous, but for a moment, you feel sympathy. You tell yourself that you're here by accident, not design.[or]To access the minefield, you have to 'go down' into her interior, auger in hand.[stopping]"
+
+Instead of touching or kissing Vali:
+	say "The last thing you need is an ethical violation."
+	
+Instead of attacking Vali:
+	say "What a barbaric thought."
+
+Section 4 - The Examiner
+
+The examiner is in the Autopsy Room. 
+
+Every turn when the turn count is less than nine:
+	if the examiner is in the Autopsy Room:
+		say "[one of]The examiner says: 'On external examination, Vali is a well-developed, well-nourished, South Asian female with no external injuries and has distinguishing marks in the form of tattoos and piercings.'[or]You hear the grinding of a bone saw, followed by the electrocautery smell of ozone and burnt hair. The examiner continues: 'Adjustments to Y-incision needed due to uncommon amount of bone regrowth; excess bone disposed of safely. Side note: We have to start doing these procedures in a single session to avoid spontaneous overnight regeneration or early reanimation.'[or]The examiner's voice interrupts your thoughts: 'Internal examination reveals an unexpectedly large quantity of nodules.'[or]The examiner observes: 'The nodules seem hotter than the subject's body, and each one also has an asymmetrical, individualized appearance.'[or]You hear a mechanical sound you can't quite place, like a rusty crank being turned. The examiner says: 'They appear to be highly vascularized, integrated into the anatomical structure, swollen enough to contain landmines, as seen with other dissidents.'[or]The examiner continues: 'Unlike previous dissidents I've examined, Vali appears to have grooves in her interior, looping around nodules in an intricate, connective pattern, as though the safe path for demining has already been mapped out...'[or]The clatter of a tool being tossed onto a tray. The examiner says: 'Further workup needed to determine if pathway originates genetically, epigenetically, or was somehow acquired.'[or]The examiner sighs wearily. 'I estimate 24 hours remaining at most before stasis wears off. I have reached the limits of my knowledge, but perhaps the deminers will learn more.' The sound of running water, followed the click of the recorder being switched off.[lb]As though talking to himself, he adds quietly, 'God, what did I sign up for.'[or]You hear the examiner moving around in the autopsy chamber, his shadow occasionally dampening your louvered light.[note world][stopping]".
+		
+Every turn when the turn count is eight:
+	say "[first time]The examiner's cellphone buzzes. You hear him curse under his breath. Footsteps. Then the door, closing behind him.[lb][only]You wait breathlessly for a few minutes, but it looks like the coast is clear.";
+	now the examiner is nowhere;
+	rule succeeds.
+	
+After deciding the scope of the player when the location is the Storage Closet:
+	place the examiner in scope.
+
+Instead of talking to the examiner for the first time:
+	say "You don't really [it]want[rt] him to hear you, do you?"
+
+Instead of talking to the examiner for the second time:
+	say "Careful. You're teetering between flirting with danger and tumbling headlong into it."
+	
+Instead of talking to the examiner at least three times:
+	now the player is dead;
+	say "The examiner flings the closet doors open, which you should have expected. What you didn't expect was the syringe plunged into your neck. The world goes hazy before you can form an impression of a man, a room, an object of study.";
+	perform Ending B.
+	
+Instead of examining the examiner:
+	if the examiner is in the Autopsy Room:
+		say "A well-dressed man in a white lab coat, from what you can see.";
+	otherwise:
+		say "The examiner isn't here right now."
+
+Chapter 2 - Minefield
+
+Minefield is a region. Minefield is in Clinic. 
+
+Instead of going down in Autopsy Room:
+	if the player is not carrying a hand auger:
+		say "First, you need a multipurpose cutting tool.[lb]You remember seeing a hand auger on the autopsy table.";
+		stop the action;
+	if the player is carrying a hand auger:
+		say "Gripping the hand auger like a talisman, you tentatively lower it into the dank, glowing cavern. Whatever you do, you can't turn back now.";
+		now the player is in Pulli1.
+		
+Shakti is in the Minefield. A shakti is a not scenery backdrop. The printed name of shakti is "glowing light". The description is "The light of her shakti beckons you onward along the path."
+
+Understand "light" or "light of shakti" as shakti.
+
+Understand "following" or "pursuing" or "going after" as continuing.
+
+Section 1 - Printed Names of Rooms
+
+Pulli1 is in Minefield. The printed name of Pulli1 is "Pulli -1,-7".
+Pulli2 is in Minefield. The printed name of Pulli2 is "Pulli 8,7".
+Pulli3 is in Minefield. The printed name of Pulli3 is "Pulli 4,7".
+Pulli4 is in Minefield. The printed name of Pulli4 is "Pulli 4,4".
+Pulli5 is in Minefield. The printed name of Pulli5 is "Pulli 4,8".
+Pulli6 is in Minefield. The printed name of Pulli6 is "Pulli 4,6".
+Pulli7 is in Minefield. The printed name of Pulli7 is "Pulli 6,7".
+Pulli8 is in Minefield. The printed name of Pulli8 is "Pulli 7,6".
+Pulli9 is in Minefield. The printed name of Pulli9 is "Pulli 7,7".
+Pulli10 is in Minefield. The printed name of Pulli10 is "Pulli 8,6".
+Pulli11 is in Minefield. The printed name of Pulli11 is "Pulli 8,8".
+Pulli12 is in Minefield. The printed name of Pulli12 is "Pulli 8,9".
+Pulli13 is in Minefield. The printed name of Pulli13 is "Pulli 8,10".
+Pulli14 is in Minefield. The printed name of Pulli14 is "Pulli 9,7".
+Pulli15 is in Minefield. The printed name of Pulli15 is "Pulli 10,4".
+Pulli16 is in Minefield. The printed name of Pulli16 is "Pulli -9,4".
+Pulli17 is in Minefield. The printed name of Pulli17 is "Pulli -7,2".
+Pulli18 is in Minefield. The printed name of Pulli18 is "Pulli -5,4".
+Pulli19 is in Minefield. The printed name of Pulli19 is "Pulli 1,7".
+Pulli20 is in Minefield. The printed name of Pulli20 is "Pulli -1,-1".
+Pulli21 is in Minefield. The printed name of Pulli21 is "Pulli 3,1".
+Pulli22 is in Minefield. The printed name of Pulli22 is "Pulli 10,1".
+Pulli23 is in Minefield. The printed name of Pulli23 is "Pulli 10,2".
+Pulli24 is in Minefield. The printed name of Pulli24 is "Pulli 10,3".
+Pulli25 is in Minefield. The printed name of Pulli25 is "Pulli 10,5".
+Pulli26 is in Minefield. The printed name of Pulli26 is "Pulli 10,9".
+Pulli27 is in Minefield. The printed name of Pulli27 is "Pulli 10,10".
+Pulli28 is in Minefield. The printed name of Pulli28 is "Pulli 9,10".
+Pulli29 is in Minefield. The printed name of Pulli29 is "Pulli 9,9".
+Pulli30 is in Minefield. The printed name of Pulli30 is "Pulli 9,8".
+Pulli31 is in Minefield. The printed name of Pulli31 is "Pulli 10,8".
+Pulli32 is in Minefield. The printed name of Pulli32 is "Pulli 10,7".
+Pulli33 is in Minefield. The printed name of Pulli33 is "Pulli 10,6".
+Pulli34 is in Minefield. The printed name of Pulli34 is "Pulli 9,6".
+Pulli35 is in Minefield. The printed name of Pulli35 is "Pulli 9,2".
+Pulli36 is in Minefield. The printed name of Pulli36 is "Pulli 9,1".
+Pulli37 is in Minefield. The printed name of Pulli37 is "Pulli 8,1".
+Pulli38 is in Minefield. The printed name of Pulli38 is "Pulli -1,-6".
+Pulli39 is in Minefield. The printed name of Pulli39 is "Pulli -4,-9".
+Pulli40 is in Minefield. The printed name of Pulli40 is "Pulli -2,-7".
+Pulli41 is in Minefield. The printed name of Pulli41 is "Pulli -4,-1".
+Pulli42 is in Minefield. The printed name of Pulli42 is "Pulli -3,4".
+Pulli43 is in Minefield. The printed name of Pulli43 is "Pulli -4,6".
+Pulli44 is in Minefield. The printed name of Pulli44 is "Pulli 0,9".
+Pulli45 is in Minefield. The printed name of Pulli45 is "Pulli -7,9".
+Pulli46 is in Minefield. The printed name of Pulli46 is "Pulli -7,6".
+Pulli47 is in Minefield. The printed name of Pulli47 is "Pulli -9,8".
+Pulli48 is in Minefield. The printed name of Pulli48 is "Pulli -7,7".
+Pulli49 is in Minefield. The printed name of Pulli49 is "Pulli -5,5".
+Pulli50 is in Minefield. The printed name of Pulli50 is "Pulli -5,3".
+Pulli51 is in Minefield. The printed name of Pulli51 is "Pulli -9,5".
+Pulli52 is in Minefield. The printed name of Pulli52 is "Pulli -8,4".
+Pulli53 is in Minefield. The printed name of Pulli53 is "Pulli -7,4".
+Pulli54 is in Minefield. The printed name of Pulli54 is "Pulli -6,4".
+
+Section 2 - Map Connections
+
+Pulli1 is mapped down of Autopsy Room, south of Pulli38, southwest of Pulli392, west of Pulli391, northwest of Pulli390, north of Pulli329, northeast of Pulli400, east of Pulli40, and southeast of Pulli396.
+
+Pulli2 is mapped south of Pulli11, southwest of Pulli30, west of Pulli14, northwest of Pulli34, north of Pulli10, northeast of Pulli9, east of Pulli8, and southeast of Pulli128.
+
+Pulli3 is mapped south of Pulli5, southwest of Pulli224, west of Pulli223, northwest of Pulli222, north of Pulli6, northeast of Pulli236, east of Pulli235, and southeast of Pulli234.
+
+Pulli4 is mapped south of Pulli126, southwest of Pulli125, west of Pulli74, northwest of Pulli121, north of Pulli89, northeast of Pulli90, east of Pulli73, and southeast of Pulli127.
+
+Pulli5 is mapped south of Pulli133, southwest of Pulli129, west of Pulli224, northwest of Pulli223, north of Pulli3, northeast of Pulli235, east of Pulli234, and southeast of Pulli132.
+
+Pulli6 is mapped south of Pulli3, southwest of Pulli223, west of Pulli222, northwest of Pulli125, north of Pulli126, northeast of Pulli127, east of Pulli236, and southeast of Pulli235.
+
+Pulli7 is mapped south of Pulli225, southwest of Pulli128, west of Pulli8, northwest of Pulli9, north of Pulli221, northeast of Pulli222, east of Pulli223, and southeast of Pulli224.
+
+Pulli8 is mapped south of Pulli128, southwest of Pulli11, west of Pulli2, northwest of Pulli10, north of Pulli9, northeast of Pulli221, east of Pulli7, and southeast of Pulli225.
+
+Pulli9 is mapped south of Pulli8, southwest of Pulli2, west of Pulli10, northwest of Pulli124, north of Pulli219, northeast of Pulli220, east of Pulli221, and southeast of Pulli7.
+
+Pulli10 is mapped south of Pulli2, southwest of Pulli14, west of Pulli34, northwest of Pulli76, north of Pulli124, northeast of Pulli219, east of Pulli9, and southeast of Pulli8.
+
+Pulli11 is mapped south of Pulli12, southwest of Pulli29, west of Pulli30, northwest of Pulli14, north of Pulli2, northeast of Pulli8, east of Pulli128, and southeast of Pulli130.
+
+Pulli12 is mapped south of Pulli13, southwest of Pulli28, west of Pulli29, northwest of Pulli30, north of Pulli11, northeast of Pulli128, east of Pulli130, and southeast of Pulli131.
+
+Pulli13 is mapped west of Pulli28, northwest of Pulli29, north of Pulli12, northeast of Pulli130, and east of Pulli131. 
+
+Pulli14 is mapped south of Pulli30, southwest of Pulli31, west of Pulli32, northwest of Pulli33, north of Pulli34, northeast of Pulli10, east of Pulli2, and southeast of Pulli11.
+
+Pulli15 is mapped south of Pulli25, north of Pulli24, northeast of Pulli78, east of Pulli77, and southeast of Pulli76. 
+
+Pulli16 is mapped south of Pulli52, southwest of Pulli149, west of Pulli53, northwest of Pulli156, north of Pulli51, northeast of Pulli155, east of Pulli154, and southeast of Pulli153.
+
+Pulli17 is mapped south of Pulli157, southwest of Pulli158, west of Pulli303, northwest of Pulli302, north of Pulli301, northeast of Pulli300, east of Pulli299, and southeast of Pulli156.
+
+Pulli18 is mapped south of Pulli49, southwest of Pulli67, west of Pulli68, northwest of Pulli69, north of Pulli50, northeast of Pulli158, east of Pulli55, and southeast of Pulli147.
+
+Pulli19 is mapped south of Pulli136, southwest of Pulli233, west of Pulli137, northwest of Pulli237, north of Pulli138, northeast of Pulli241, east of Pulli242, and southeast of Pulli243.
+
+Pulli20 is mapped south of Pulli92, southwest of Pulli278, west of Pulli94, northwest of Pulli0, north of Pulli93, northeast of Pulli429, east of Pulli428, and southeast of Pulli427.
+
+Pulli21 is mapped south of Pulli91, southwest of Pulli119, west of Pulli118, northwest of Pulli117, north of Pulli97, northeast of Pulli283, east of Pulli96, and southeast of Pulli276. 
+
+Pulli22 is mapped south of Pulli23, north of Pulli84, northeast of Pulli85, east of Pulli36, and southeast of Pulli35. 
+
+Pulli23 is mapped south of Pulli24, north of Pulli22, northeast of Pulli36, east of Pulli35, and southeast of Pulli78. 
+
+Pulli24 is mapped south of Pulli15, north of Pulli23, northeast of Pulli35, east of Pulli78, and southeast of Pulli77. 
+
+Pulli25 is mapped south of Pulli33, north of Pulli15, northeast of Pulli77, east of Pulli76, and southeast of Pulli34. 
+
+Pulli26 is mapped south of Pulli27, north of Pulli31, northeast of Pulli30, east of Pulli29, and southeast of Pulli28. 
+
+Pulli27 is mapped north of Pulli26, northeast of Pulli29, and east of Pulli28. 
+
+Pulli28 is mapped west of Pulli27, northwest of Pulli26, north of Pulli29, northeast of Pulli12, and east of Pulli13. 
+
+Pulli29 is mapped south of Pulli28, southwest of Pulli27, west of Pulli26, northwest of Pulli31, north of Pulli30, northeast of Pulli11, east of Pulli12, and southeast of Pulli13.
+
+Pulli30 is mapped south of Pulli29, southwest of Pulli26, west of Pulli31, northwest of Pulli32, north of Pulli14, northeast of Pulli2, east of Pulli11, and southeast of Pulli12.
+
+Pulli31 is mapped south of Pulli26, north of Pulli32, northeast of Pulli14, east of Pulli30, and southeast of Pulli29. 
+
+Pulli32 is mapped south of Pulli31, north of Pulli33, east of Pulli14, and southeast of Pulli30. 
+
+Pulli33 is mapped south of Pulli32, north of Pulli25, northeast of Pulli76, east of Pulli34, and southeast of Pulli14. 
+
+Pulli34 is mapped south of Pulli14, southwest of Pulli32, west of Pulli33, northwest of Pulli25, north of Pulli76, northeast of Pulli124, east of Pulli10, and southeast of Pulli2.
+
+Pulli35 is mapped south of Pulli78, southwest of Pulli24, west of Pulli23, northwest of Pulli22, north of Pulli36, northeast of Pulli37, east of Pulli79, and southeast of Pulli122.
+
+Pulli36 is mapped south of Pulli35, southwest of Pulli23, west of Pulli22, northwest of Pulli84, north of Pulli85, northeast of Pulli86, east of Pulli37, and southeast of Pulli79.
+
+Pulli37 is mapped south of Pulli79, southwest of Pulli35, west of Pulli36, northwest of Pulli85, north of Pulli86, northeast of Pulli213, east of Pulli214, and southeast of Pulli80.
+
+Pulli38 is mapped south of Pulli394, southwest of Pulli393, west of Pulli392, northwest of Pulli391, north of Pulli1, northeast of Pulli40, east of Pulli396, and southeast of Pulli395.
+
+Pulli39 is mapped south of Pulli173, southwest of Pulli399, west of Pulli171, northwest of Pulli403, north of Pulli404, northeast of Pulli405, east of Pulli172, and southeast of Pulli409.
+
+Pulli40 is mapped south of Pulli396, southwest of Pulli38, west of Pulli1, northwest of Pulli329, north of Pulli400, northeast of Pulli399, east of Pulli398, and southeast of Pulli397.
+
+Pulli41 is mapped south of Pulli423, southwest of Pulli430, west of Pulli431, northwest of Pulli432, north of Pulli422, northeast of Pulli421, east of Pulli420, and southeast of Pulli305.
+
+Pulli42 is mapped south of Pulli66, southwest of Pulli270, west of Pulli271, northwest of Pulli281, north of Pulli70, northeast of Pulli69, east of Pulli68, and southeast of Pulli67.
+
+Pulli43 is mapped south of Pulli142, southwest of Pulli143, west of Pulli140, northwest of Pulli66, north of Pulli67, northeast of Pulli49, east of Pulli145, and southeast of Pulli144.
+
+Pulli44 is mapped south of Pulli65, southwest of Pulli134, west of Pulli135, northwest of Pulli136, north of Pulli243, northeast of Pulli265, east of Pulli264, and southeast of Pulli263.
+
+Pulli45 is mapped south of Pulli255, southwest of Pulli256, west of Pulli248, northwest of Pulli63, north of Pulli62, northeast of Pulli61, east of Pulli249, and southeast of Pulli254.
+
+Pulli46 is mapped south of Pulli48, southwest of Pulli56, west of Pulli146, northwest of Pulli147, north of Pulli148, northeast of Pulli149, east of Pulli150, and southeast of Pulli57.
+
+Pulli47 is mapped south of Pulli250, southwest of Pulli249, west of Pulli61, northwest of Pulli57, north of Pulli58, northeast of Pulli59, east of Pulli60, and southeast of Pulli251.
+
+Pulli48 is mapped south of Pulli62, southwest of Pulli63, west of Pulli56, northwest of Pulli146, north of Pulli46, northeast of Pulli150, east of Pulli57, and southeast of Pulli61.
+
+Pulli49 is mapped south of Pulli145, southwest of Pulli43, west of Pulli67, northwest of Pulli68, north of Pulli18, northeast of Pulli55, east of Pulli147, and southeast of Pulli146.
+
+Pulli50 is mapped south of Pulli50, southwest of Pulli68, west of Pulli69, northwest of Pulli425, north of Pulli304, northeast of Pulli303, east of Pulli158, and southeast of Pulli55.
+
+Pulli51 is mapped south of Pulli16, southwest of Pulli53, west of Pulli156, northwest of Pulli299, north of Pulli298, northeast of Pulli297, east of Pulli155, and southeast of Pulli154.
+
+Pulli52 is mapped south of Pulli151, southwest of Pulli150, west of Pulli149, northwest of Pulli53, north of Pulli16, northeast of Pulli154, east of Pulli153, and southeast of Pulli152.
+
+Pulli53 is mapped south of Pulli149, southwest of Pulli148, west of Pulli54, northwest of Pulli157, north of Pulli156, northeast of Pulli51, east of Pulli16, and southeast of Pulli52.
+
+Pulli54 is mapped south of Pulli148, southwest of Pulli147, west of Pulli55, northwest of Pulli158, north of Pulli157, northeast of Pulli156, east of Pulli53, and southeast of Pulli149.
+
+Pulli55 is mapped south of Pulli147, southwest of Pulli49, west of Pulli18, northwest of Pulli50, north of Pulli158, northeast of Pulli157, east of Pulli54, and southeast of Pulli148.
+
+Pulli56 is mapped south of Pulli63, southwest of Pulli247, west of Pulli144, northwest of Pulli145, north of Pulli146, northeast of Pulli46, east of Pulli48, and southeast of Pulli62.
+
+Pulli57 is mapped south of Pulli61, southwest of Pulli62, west of Pulli48, northwest of Pulli46, north of Pulli150, northeast of Pulli151, east of Pulli58, and southeast of Pulli47.
+
+Pulli58 is mapped south of Pulli47, southwest of Pulli61, west of Pulli57, northwest of Pulli150, north of Pulli151, northeast of Pulli152, east of Pulli59, and southeast of Pulli60.
+
+Pulli59 is mapped south of Pulli60, southwest of Pulli47, west of Pulli58, northwest of Pulli151, and north of Pulli152. 
+
+Pulli60 is mapped south of Pulli251, southwest of Pulli250, west of Pulli47, northwest of Pulli58, and north of Pulli59.
+
+Pulli61 is mapped south of Pulli249, southwest of Pulli45, west of Pulli62, northwest of Pulli48, north of Pulli57, northeast of Pulli58, east of Pulli47, and southeast of Pulli250.
+
+Pulli62 is mapped south of Pulli45, southwest of Pulli248, west of Pulli63, northwest of Pulli56, north of Pulli48, northeast of Pulli57, east of Pulli61, and southeast of Pulli249.
+
+Pulli63 is mapped south of Pulli248, southwest of Pulli258, west of Pulli247, northwest of Pulli144, north of Pulli56, northeast of Pulli48, east of Pulli62, and southeast of Pulli45.
+
+Pulli64 is mapped west of Pulli261, northwest of Pulli260, north of Pulli259, northeast of Pulli258, and east of Pulli257. 
+
+Pulli65 is mapped west of Pulli134, northwest of Pulli135, north of Pulli44, northeast of Pulli264, and east of Pulli263.
+
+Pulli66 is mapped south of Pulli140, southwest of Pulli141, west of Pulli270, northwest of Pulli271, north of Pulli42, northeast of Pulli68, east of Pulli67, and southeast of Pulli43.
+
+Pulli67 is mapped south of Pulli43, southwest of Pulli140, west of Pulli66, northwest of Pulli42, north of Pulli68, northeast of Pulli18, east of Pulli49, and southeast of Pulli145.
+
+Pulli68 is mapped south of Pulli67, southwest of Pulli66, west of Pulli42, northwest of Pulli70, north of Pulli69, northeast of Pulli50, east of Pulli18, and southeast of Pulli49.
+
+Pulli69 is mapped south of Pulli68, southwest of Pulli42, west of Pulli70, northwest of Pulli426, north of Pulli425, northeast of Pulli304, east of Pulli50, and southeast of Pulli18.
+
+Pulli70 is mapped south of Pulli42, southwest of Pulli271, west of Pulli281, northwest of Pulli427, north of Pulli426, northeast of Pulli425, east of Pulli69, and southeast of Pulli68.
+
+Pulli71 is mapped south of Pulli269, southwest of Pulli240, west of Pulli272, northwest of Pulli279, north of Pulli280, northeast of Pulli281, east of Pulli271, and southeast of Pulli270.
+
+Pulli72 is mapped south of Pulli273, southwest of Pulli274, west of Pulli275, northwest of Pulli276, north of Pulli277, northeast of Pulli278, east of Pulli279, and southeast of Pulli272.
+
+Pulli73 is mapped south of Pulli127, southwest of Pulli126, west of Pulli4, northwest of Pulli89, north of Pulli90, northeast of Pulli275, east of Pulli274, and southeast of Pulli238.
+
+Pulli74 is mapped south of Pulli125, southwest of Pulli220, west of Pulli75, northwest of Pulli216, north of Pulli121, northeast of Pulli89, east of Pulli4, and southeast of Pulli126.
+
+Pulli75 is mapped south of Pulli220, southwest of Pulli219, west of Pulli218, northwest of Pulli217, north of Pulli216, northeast of Pulli121, east of Pulli74, and southeast of Pulli125.
+
+Pulli76 is mapped south of Pulli34, southwest of Pulli33, west of Pulli25, northwest of Pulli15, north of Pulli77, northeast of Pulli123, east of Pulli124, and southeast of Pulli10.
+
+Pulli77 is mapped south of Pulli76, southwest of Pulli25, west of Pulli15, northwest of Pulli24, north of Pulli78, northeast of Pulli122, east of Pulli123, and southeast of Pulli124.
+
+Pulli78 is mapped south of Pulli77, southwest of Pulli15, west of Pulli24, northwest of Pulli23, north of Pulli35, northeast of Pulli79, east of Pulli122, and southeast of Pulli123.
+
+Pulli79 is mapped south of Pulli122, southwest of Pulli78, west of Pulli35, northwest of Pulli36, north of Pulli37, northeast of Pulli214, east of Pulli80, and southeast of Pulli217.
+
+Pulli80 is mapped south of Pulli217, southwest of Pulli122, west of Pulli79, northwest of Pulli37, north of Pulli214, northeast of Pulli81, east of Pulli215, and southeast of Pulli216.
+
+Pulli81 is mapped south of Pulli215, southwest of Pulli80, west of Pulli214, northwest of Pulli213, north of Pulli212, northeast of Pulli116, east of Pulli88, and southeast of Pulli120.
+
+Pulli82 is mapped south of Pulli114, southwest of Pulli116, west of Pulli115, northwest of Pulli114, north of Pulli113, northeast of Pulli99, east of Pulli98, and southeast of Pulli97.
+
+Pulli83 is mapped south of Pulli206, southwest of Pulli205, west of Pulli204, northwest of Pulli342, north of Pulli343, northeast of Pulli359, east of Pulli208, and southeast of Pulli207.
+
+Pulli84 is mapped south of Pulli22, north of Pulli205, northeast of Pulli206, east of Pulli85, and southeast of Pulli36.
+
+Pulli85 is mapped south of Pulli36, southwest of Pulli22, west of Pulli84, northwest of Pulli205, north of Pulli206, northeast of Pulli207, east of Pulli86, and southeast of Pulli37.
+
+Pulli86 is mapped south of Pulli37, southwest of Pulli36, west of Pulli85, northwest of Pulli206, north of Pulli207, northeast of Pulli87, east of Pulli213, and southeast of Pulli214.
+
+Pulli87 is mapped south of Pulli213, southwest of Pulli86, west of Pulli207, northwest of Pulli208, north of Pulli209, northeast of Pulli210, east of Pulli211, and southeast of Pulli212.
+
+Pulli88 is mapped south of Pulli120, southwest of Pulli215, west of Pulli81, northwest of Pulli212, north of Pulli116, northeast of Pulli117, east of Pulli118, southeast of Pulli119.
+
+Pulli89 is mapped south of Pulli4, southwest of Pulli74, west of Pulli121, northwest of Pulli120, north of Pulli119, northeast of Pulli91, east of Pulli90, and southeast of Pulli73.
+
+Pulli90 is mapped south of Pulli73, southwest of Pulli4, west of Pulli89, northwest of Pulli119, north of Pulli91, northeast of Pulli276, east of Pulli275, and southeast of Pulli274.
+
+Pulli91 is mapped south of Pulli90, southwest of Pulli89, west of Pulli119, northwest of Pulli118, north of Pulli21, northeast of Pulli96, east of Pulli276, and southeast of Pulli275.
+
+Pulli92 is mapped south of Pulli280, southwest of Pulli279, west of Pulli278, northwest of Pulli94, north of Pulli20, northeast of Pulli428, east of Pulli427, and southeast of Pulli281.
+
+Pulli93 is mapped south of Pulli20, southwest of Pulli94, west of Pulli0, northwest of Pulli286, north of Pulli287, northeast of Pulli288, east of Pulli429, and southeast of Pulli428.
+
+Pulli94 is mapped south of Pulli278, southwest of Pulli277, west of Pulli95, northwest of Pulli440, north of Pulli0, northeast of Pulli93, east of Pulli20, and southeast of Pulli92.
+
+Pulli95 is mapped south of Pulli277, southwest of Pulli276, west of Pulli96, northwest of Pulli283, north of Pulli440, northeast of Pulli0, east of Pulli94, and southeast of Pulli278.
+
+Pulli96 is mapped south of Pulli276, southwest of Pulli91, west of Pulli21, northwest of Pulli97, north of Pulli283, northeast of Pulli440, east of Pulli95, and southeast of Pulli277.
+
+Pulli97 is mapped south of Pulli21, southwest of Pulli118, west of Pulli117, northwest of Pulli82, north of Pulli98, northeast of Pulli284, east of Pulli283, and southeast of Pulli96.
+
+Pulli98 is mapped south of Pulli97, southwest of Pulli117, west of Pulli82, northwest of Pulli113, north of Pulli99, northeast of Pulli285, east of Pulli284, and southeast of Pulli283.
+
+Pulli99 is mapped south of Pulli98, southwest of Pulli82, west of Pulli113, northwest of Pulli346, north of Pulli324, northeast of Pulli323, east of Pulli285, and southeast of Pulli284.
+
+Pulli100 is mapped south of Pulli287, southwest of Pulli286, west of Pulli437, northwest of Pulli436, north of Pulli435, northeast of Pulli434, east of Pulli433, and southeast of Pulli288.
+
+Pulli101 is mapped south of Pulli435, southwest of Pulli436, west of Pulli320, northwest of Pulli393, north of Pulli394, northeast of Pulli395, east of Pulli319, and southeast of Pulli434.
+
+Pulli102 is mapped south of Pulli438, southwest of Pulli285, west of Pulli323, northwest of Pulli322, north of Pulli321, northeast of Pulli320, east of Pulli436, and southeast of Pulli437.
+
+Pulli103 is mapped south of Pulli321, southwest of Pulli322, west of Pulli199, northwest of Pulli327, north of Pulli104, northeast of Pulli392, east of Pulli393, and southeast of Pulli320.
+
+Pulli104 is mapped south of Pulli103, southwest of Pulli199, west of Pulli327, northwest of Pulli105, north of Pulli328, northeast of Pulli391, east of Pulli392, and southeast of Pulli393.
+
+Pulli105 is mapped south of Pulli327, southwest of Pulli326, west of Pulli200, northwest of Pulli385, north of Pulli109, northeast of Pulli389, east of Pulli328, and southeast of Pulli104.
+
+Pulli106 is mapped south of Pulli384, southwest of Pulli383, west of Pulli382, northwest of Pulli336, north of Pulli335, northeast of Pulli334, east of Pulli386, and southeast of Pulli385.
+
+Pulli107 is mapped south of Pulli387, southwest of Pulli386, west of Pulli334, east of Pulli333, and southeast of Pulli388.
+
+Pulli108 is mapped south of Pulli390, southwest of Pulli389, west of Pulli388, northwest of Pulli333, north of Pulli332, northeast of Pulli331, east of Pulli330, and southeast of Pulli329.
+
+Pulli109 is mapped south of Pulli105, southwest of Pulli200, west of Pulli385, northwest of Pulli386, north of Pulli387, northeast of Pulli388, east of Pulli389, and southeast of Pulli328.
+
+Pulli110 is mapped south of Pulli111, southwest of Pulli350, west of Pulli201, northwest of Pulli383, north of Pulli384, northeast of Pulli385, east of Pulli200, and southeast of Pulli326.
+
+Pulli111 is mapped south of Pulli348, southwest of Pulli349, west of Pulli350, northwest of Pulli201, north of Pulli110, northeast of Pulli200, east of Pulli326, and southeast of Pulli325.
+
+Pulli112 is mapped south of Pulli324, southwest of Pulli346, west of Pulli347, northwest of Pulli348, north of Pulli325, northeast of Pulli199, east of Pulli322, southeast of Pulli323.
+
+Pulli113 is mapped south of Pulli82, southwest of Pulli115, west of Pulli114, northwest of Pulli345, north of Pulli346, northeast of Pulli324, east of Pulli99, and southeast of Pulli98.
+
+Pulli114 is mapped south of Pulli115, southwest of Pulli211, west of Pulli210, northwest of Pulli361,  north of Pulli345, northeast of Pulli346, east of Pulli113, and southeast of Pulli82.
+
+Pulli115 is mapped south of Pulli116, southwest of Pulli212, west of Pulli211, northwest of Pulli210, north of Pulli114, northeast of Pulli113, east of Pulli82, and southeast of Pulli117.
+
+Pulli116 is mapped south of Pulli88, southwest of Pulli81, west of Pulli212, northwest of Pulli211, north of Pulli115, northeast of Pulli82, east of Pulli117, and southeast of Pulli118.
+
+Pulli117 is mapped south of Pulli118, southwest of Pulli88, west of Pulli116, northwest of Pulli115, north of Pulli82, northeast of Pulli98, east of Pulli97, and southeast of Pulli21.
+
+Pulli118 is mapped south of Pulli119, southwest of Pulli120, west of Pulli88, northwest of Pulli116, north of Pulli117, northeast of Pulli97, east of Pulli21, and southeast of Pulli91.
+
+Pulli119 is mapped south of Pulli89, southwest of Pulli121, west of Pulli120, northwest of Pulli88, north of Pulli118, northeast of Pulli21, east of Pulli91, and southeast of Pulli90.
+
+Pulli120 is mapped south of Pulli121, southwest of Pulli216, west of Pulli215, northwest of Pulli81, north of Pulli88, northeast of Pulli118, east of Pulli119, and southeast of Pulli89.
+
+
+Chapter 3 - Pulli
+
+Instead of going down in Autopsy Room:
+	move player to Pulli1.
+		
+Section 1 - Pulli1
+
+The description of Pulli1 is "[if unvisited]Your fingers are greeted by smooth rosy flesh, with crests capped in white.[otherwise]White-crusted protrusions mar the reddened flesh."
+
+Neli1 is a closed thing in Pulli1. The printed name of neli1 is "Nodule 1". Understand "Nodule 1" as neli1. The description is "A fleshy nodule[if neli1 is closed], its translucent tip bulging.[otherwise], deflating as pus oozes out of the cut you just made. [note claymore]"
+
+There is a landmine1 in neli1. The printed name of landmine1 is "SN 96-1". Understand "SN 96-1" as landmine1. The description is "[bt]-1,-7: Haunting, Navigation, and Memory[rt][lb]'In torture, the world is reduced to a single room or set of rooms' (Scarry, 1985, p. 42). [note maps] [it]Safe house[rt] is a cross-cultural torturer's idiom for this room. Every conceivable aspect of the room, the objects in it, the fact of civilization, become agents of pain and are annihilated as they participate in the annihilation of the tortured. The domestic act of protecting becomes an act of hurting (p. 40).[pb]In Sri Lanka, during the war and since its end in 2009, safe houses [unicode 8212] and other secret or known detention sites [unicode 8212] are used by security forces to detain and interrogate Tamils, sometimes with domestic objects, from pins to electrical cords (HRW, 2021). Euro-Western universities, colonial purveyors of morality, taste, decency, and other civilizing impulses, are just as safe, though their currency is symbolic. If the text is my soulbody, Euro-Western, ableist method is the apparatus of capture that drives me to the safe house, blindfolds me, ties my ankles to the ceiling and hoods me, all on suspicion of doing and being wrong."
+	
+Instead of cutting neli1 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun] ([it]cn: torture[rt]). It looks like there's additional text as well."
+
+After taking landmine1 when landmine1 was not handled:
+	now the printed name of landmine1 is "SN 96-1 acquired at -1,-7";
+	move landmine1 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+Instead of continuing when the player is in Pulli1:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli2.
+
+Section 2 - Pulli2
+
+The description of Pulli2 is "[if unvisited]Your fingers find ridges and whorls that feel like a match to your own fingerprints.[otherwise]The area pulses with feverish heat."
+
+Neli2 is a closed thing in Pulli2. The printed name of neli2 is "Nodule 2". Understand "Nodule 2" as neli2. The description is "A bump[if neli2 is closed], swollen with a pearlescent tip[otherwise]its tip burst open and leaking blood and lymphatic fluid with the smell of a copper sea."
+
+There is a landmine2 in neli2. The printed name of landmine2 is "JONY 95-1". Understand "JONY 95-1" as landmine2. The description is "[bt]8,7: Design, Navigation, and Rigor[rt][lb]Between Tamil literacy's emphasis on ambiguity, interpretive puzzles, and emergent meaning-making and a cognition fractured by pain, fatigue, and trauma, I can't pre-compose any other way. No matter the medium, my 'zero' drafts are exercises in Eelam Tamil ecofeminist literacy, digital geometric thinking that is graphic, sonic, land- and community-based, embodied, combinatorial, participatory, playful [unicode 8212] tortured.[pb]Following writers like Raymond Queneau, Julio Cortazar, Italo Calvino [unicode 8212] members of the Oulipo school, which saw promise in the convergence of mathematics and literature [unicode 8212] this body appears formally constrained yet liberated through constraint. The slick topology your fingers slide through is the diagram of a 21x21 Fibonacci labyrinth kolam, an ancient Tamil aesthetic, religious, and cultural practice that involves a closed-loop line drawing on a point lattice (Psarra, 2018; Nagarajan, 2019).[pb]Traditionally created with white rice flour on the veranda, kolam-making is an 'ecofeminist computational art practice that intertwines embodiment, emotion, and sociality in relationally meaningful ways' (Kannabiran & Reddy, 2022, p.4). Its topological concordance, symbolizing the concordances of bodily pain, spiritual pain, and ecological relationships with land, environments, people, is based on relations of adjacency among constituent kolams, symmetrical points, and repeating names, representing conceptual relationships across a single, visually graspable object (Psarra, 2018, §4.4, ¶5)."
+
+Instead of cutting neli2 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun]. It looks like there's additional text as well."
+
+After taking landmine2 when landmine2 was not handled:
+	now the printed name of landmine2 is "JONY 95-1 acquired at 8,7";
+	move landmine2 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli2 the first time:
+	change the north exit of Pulli2 to nowhere;
+	change the southwest exit of Pulli2 to nowhere;
+	change the east exit of Pulli2 to nowhere;
+	change the northwest exit of Pulli2 to nowhere;
+	change the south exit of Pulli2 to nowhere;
+	change the southwest exit of Pulli2 to nowhere;
+	change the west exit of Pulli2 to nowhere;	
+	change the northwest exit of Pulli2 to nowhere.
+
+Instead of continuing while the player is in Pulli2:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli3.
+
+Section 3 - Pulli3
+
+The description of Pulli3 is "[if unvisited]A hardened scrap of fascia crackles under your touch.[otherwise]The fascia here is so brittle, one touch breaks it apart."
+
+Neli3 is a closed thing in Pulli3. The printed name of neli3 is "Nodule 3". Understand "Nodule 3" as neli3. The description is "A pit[if neli3 is closed], covered with a strange sheen[otherwise], waving ragged tendrils in a swelling pool of blood."
+
+There is a landmine3 in neli3. The printed name of landmine3 is "JONY 95-2". Understand "JONY 95-2" as landmine3. The description is "[bt]4,7: Emergence, Navigation, and Rigor[rt][lb]Numeric-thematic concordance manifests in coordinates and repeating titles, which identify the precise position of each potential landmine in the slick interior of this body. Your initial sweep discovered a grid of hard nodules, 21 high and 21 across, haptically letting you visualize her body [unicode 8212] and all its disparate biohazards [unicode 8212] as a geometric notation, a Fibonacci kolam. If you really wanted to, you could wash the gore from your hands, draw this 21x21 point lattice on paper and plot each coordinate to perceive the narrative armature as a single, visually represented object, figure out how to draw a line that loops around each point, in order, forms an Euler circuit, and closes the loop at the end.[pb]Intuitive modes of perception are interwoven with analytic forms of understanding. You can see how, in Sophia Psarra's (2018) words, 'the network ‘gets into’ the text; how the step-by-step experience of reading the fiction with its images, ideas, inversions, transpositions and pleasures enables us to grasp the notation as a particular mode of explaining the fiction' (§4.4, ¶8).[pb]You could make the kolam, but will you? It says something about your perception of digital multimodal composition, if such work seems uninteresting, unrewarding, undermining. [note concept]"
+
+Instead of cutting neli3 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun]. It looks like there's additional text as well."
+
+After taking landmine3 when landmine3 was not handled:
+	now the printed name of landmine3 is "JONY 95-2 acquired at 4,7";
+	move landmine3 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli3 the first time:
+	change the north exit of Pulli3 to nowhere;
+	change the southwest exit of Pulli3 to nowhere;
+	change the east exit of Pulli3 to nowhere;
+	change the northwest exit of Pulli3 to nowhere;
+	change the south exit of Pulli3 to nowhere;
+	change the southwest exit of Pulli3 to nowhere;
+	change the west exit of Pulli3 to nowhere;	
+	change the northwest exit of Pulli3 to nowhere.
+
+Instead of continuing while the player is in Pulli3:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli4.
+
+Section 4 - Pulli4
+
+The description of Pulli4 is "[if unvisited]The nubby surface barely feels like flesh, more like clay, molded into an approximation.[otherwise]The flesh here seems, strangely, to rise to your hand."
+
+Neli4 is a closed thing in Pulli4. The printed name of neli4 is "Nodule 4". Understand "Nodule 4" as neli4. The description is "A calcified buildup[if neli4 is closed] that looks like a tooth[otherwise], burst open into an swirl of blues and blacks."
+
+There is a landmine4 in neli4. The printed name of landmine4 is "Rangan 99-1". Understand "Rangan 99-1" as landmine4. The description is "[bt]4,4: Twofold Emergence and Exactitude[rt][lb]Years ago, I asked established scholars for advice on how to effectively use digital interactive formats to produce the unpleasant, undesirable affects associated with chronic pain, chronic fatigue, and intergenerational trauma. To me, interactivity, poetics, and combinatorial constraints constitute the most sensible, least hypocritical approach to authentically writing about Eelam Tamil American chronic pain, but most people recoil, saying: [it]It's unethical to harm the reader; there's no way to simulate pain without unethically harming the reader[rt], in a tone like I should know better. They suggest I stop obsessing over form and just write.[pb]For years, I feel 'good-girled' (Tuck & Ree, 2013) away from doing justice to the trifecta of diasporic, disabled, and academic chronic pain [unicode 8212] as in, be a good South Asian girl: forgive, behave."
+
+Instead of cutting neli4 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun] ([it]cn: academic ableism[rt]). It looks like there's additional text as well."
+
+After taking landmine4 when landmine4 was not handled:
+	now the printed name of landmine4 is "Rangan 99-1 acquired at 4,4";
+	move landmine4 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli4 the first time:
+	change the north exit of Pulli4 to nowhere;
+	change the southwest exit of Pulli4 to nowhere;
+	change the east exit of Pulli4 to nowhere;
+	change the northwest exit of Pulli4 to nowhere;
+	change the south exit of Pulli4 to nowhere;
+	change the southwest exit of Pulli4 to nowhere;
+	change the west exit of Pulli4 to nowhere;	
+	change the northwest exit of Pulli4 to nowhere.
+
+Instead of continuing while the player is in Pulli4:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli5.
+
+Section 5 - Pulli5
+
+The description of Pulli5 is "[if unvisited]The flesh here is so soft you almost feel like you could plunge your finger through.[otherwise]The velveteen surface is hotter than the previous nodules you've examined."
+
+Neli5 is a closed thing in Pulli5. The printed name of neli5 is "Nodule 5". Understand "Nodule 5" as neli5. The description is "A blood blister[if neli5 is closed], bulging darkly.[otherwise], ripped into a misshapen chunk of tissue."
+
+There is a landmine5 in neli5. The printed name of landmine5 is "PRB 409-1". Understand "PRB 409-1" as landmine5. The description is "[bt]4,8: Emergence, Design, and Rigor[rt][lb]After I read Sophia Maier, Jo Hsu, Christina Cedillo, and Remi Yergeau's (2020) discussion of the fractal as a 'theory-in-motion' [unicode 8212] one that illustrates 'both the distinctiveness and interconnectedness of trans, disabled, LGBQ experiences as well as the logics that inform racism, misogyny, and settler colonialism. Fractals inform textual structures and the development of literary genres. But what if fractals also structure social worlds, historical and rhetorical forces, and struggles for power?' (para. 6) [unicode 8212] I start thinking about enacting kolam as the grammar or notation of a text. [note anticipation]"
+
+Instead of cutting neli5 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun]. It looks like there's additional text as well."
+
+After taking landmine5 when landmine5 was not handled:
+	now the printed name of landmine5 is "PRB 409-1 acquired at 4,8";
+	move landmine5 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli5 the first time:
+	change the north exit of Pulli5 to nowhere;
+	change the southwest exit of Pulli5 to nowhere;
+	change the east exit of Pulli5 to nowhere;
+	change the northwest exit of Pulli5 to nowhere;
+	change the south exit of Pulli5 to nowhere;
+	change the southwest exit of Pulli5 to nowhere;
+	change the west exit of Pulli5 to nowhere;	
+	change the northwest exit of Pulli5 to nowhere.
+
+Instead of continuing while the player is in Pulli5:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli6.
+
+Section 6 - Pulli6
+
+The description of Pulli6 is "[if unvisited]The abdominal wall is red, with a warm, wet sheen.[otherwise]The bright white lighting dapples the abdominal wall with highlights and shadows."
+
+Neli6 is a closed thing in Pulli6. The printed name of neli6 is "Nodule 6". Understand "Nodule 6" as neli6. The description is "Something hard, like a cyst[if neli6 is closed], its contents not yet drawn to a head[otherwise], cut open and oozing purulent discharge."
+
+There is a landmine6 in neli6. The printed name of landmine6 is "Amman 2000 MKI-1". Understand "Amman 2000 MKI-1" as landmine6. The description is "[bt]4,6: Emergence, Torture, and Rigor[rt][lb]Torture [it]is[rt] play, and it's limiting to pretend otherwise. Its cruel pleasures manifest in schoolyard bullying, academic abuse, the colonial project of play (Trammell, 2023). That is: Whose stories do we center in spaces that curate digital games and play? Whose pain? Who's granted agency? Who has the luxury of preaching nonviolence? Whose violent actions, past or present, are narratively justified, laundered, romanticized, forgiven? Whose wounds are reopened for years by the implied suffering of even minor 16-bit NPC sprites whose bodies might be bloodless? Who commits harm and forgets about it the next day? How does privileging Eurocentric academic norms in digital composition [unicode 8212] the bourgeois moralizing aversion to pain [unicode 8212] import and legitimize the cruel pleasures above? [note friction]"
+
+Instead of cutting neli6 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun]. It looks like there's additional text as well."
+
+After taking landmine6 when landmine6 was not handled:
+	now the printed name of landmine6 is "Amman 2000 MKI-1 acquired at 4,6";
+	move landmine6 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli6 the first time:
+	change the north exit of Pulli6 to nowhere;
+	change the southwest exit of Pulli6 to nowhere;
+	change the east exit of Pulli6 to nowhere;
+	change the northwest exit of Pulli6 to nowhere;
+	change the south exit of Pulli6 to nowhere;
+	change the southwest exit of Pulli6 to nowhere;
+	change the west exit of Pulli6 to nowhere;	
+	change the northwest exit of Pulli6 to nowhere.
+
+Instead of continuing while the player is in Pulli6:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli7.
+
+Section 7 - Pulli7
+
+The description of Pulli7 is "[if unvisited]The flesh here is filmy with adhesions.[otherwise]Adhesions stretch between the flesh of the abdominal walls."
+
+Neli7 is a closed thing in Pulli7. The printed name of neli7 is "Nodule 7". Understand "Nodule 7" as neli7. The description is "Scar tissue[if neli7 is closed], built up like an elaborate web.[otherwise]; your hand slips, severing a hard knot of tissue from the body."
+
+There is a landmine7 in neli7. The printed name of landmine7 is "VS50-1". Understand "VS50-1" as landmine7. The description is "[bt]6,7: Torture, Navigation, and Rigor[rt][lb]Pacifism is a core tenet of many of the games I grew up playing. The successor to [it]Mega Man[rt], X is a reluctant soldier whose olive branches are universally rejected. [it]King’s Quest 1[rt] awards more points for nonviolent solutions, lays the guilt on thick if you choose to kill. Better to trust that you can outwit your enemies, as though a moment's trickery precludes violent retaliation.[pb]I enjoy these games, but they aren't for me. Genocides, like the anti-Tamil violence of Black July 1983, aren't retaliation. They can't be prevented with an olive branch or nonviolent protest. The reality is that those July massacres weren't mob retaliation for the Tamil Tigers' killing of 13 soldiers; they were already planned, weapons stockpiled, target addresses aggregated from voter registrations, killers recruited, security forces told to stand down. Only the signal was needed. Decades of nonviolence yielded deaths, rapes, and displacement. All with the Sri Lankan state's blessing, without any mercy.[pb]These are games for people who guilelessly believe mercy prevents violence. A digital design ethos that revolves around pacifism is for scholars who believe that nonviolence solves all evils and that everyone believes this."
+
+Instead of cutting neli7 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun] ([it]cn: genocide[rt]). It looks like there's additional text as well."
+
+After taking landmine7 when landmine7 was not handled:
+	now the printed name of landmine7 is "VS50-1 acquired at 6,7";
+	move landmine7 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli7 the first time:
+	change the north exit of Pulli7 to nowhere;
+	change the southwest exit of Pulli7 to nowhere;
+	change the east exit of Pulli7 to nowhere;
+	change the northwest exit of Pulli7 to nowhere;
+	change the south exit of Pulli7 to nowhere;
+	change the southwest exit of Pulli7 to nowhere;
+	change the west exit of Pulli7 to nowhere;	
+	change the northwest exit of Pulli7 to nowhere;
+
+Instead of continuing while the player is in Pulli7:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli8.
+
+Section 8 - Pulli8
+
+The description of Pulli8 is "[if unvisited]A blacklight glow spills over a firm nodule.[otherwise]You notice the nodules you passed seem colored by a similar light."
+
+Neli8 is a closed thing in Pulli8. The printed name of neli8 is "Nodule 8". Understand "Nodule 8" as neli8. The description is "A large growth[if neli8 is closed], hard and unyielding.[otherwise], its tip cut off to create a hard-rimmed scrying pool of blood at its center."
+
+There is a landmine8 in neli8. The printed name of landmine8 is "SN96-2". Understand "SN96-2" as landmine8. The description is "[bt]7,6: Navigation, Torture, and Rigor[rt][lb]Joshua Daniel-Wariya and James Chase Sanchez (2019) define ambient rhetorical actions as 'actions in video games that transpire without user input but create a general rhetorical atmosphere wherein racial ideologies are encoded and articulated' (p. 138). This includes rhetorical designs and interactions that romanticize white saviorism, depict white European colonization as a necessary intervention in barbaric spaces, and align the player with imperialist, self-indulgent fantasies around wartime atrocities, justice, and accountability.[pb]Encoded into games by programmers and designers, this insidious amplification of colonialist ideologies reifies the importance of making players from colonizing states comfortable. The status quo must be reinforced. [it]Final Fantasy IV[rt]'s protagonist Cecil commits war crimes at the start of the game, but defeating his inner evil absolves both him and players predisposed to forgiving people who were just following orders. The way we're meant to forgive people when their inflexible adherence to academic style and legitimacy harms BIPOC and disabled rhetors."
+
+Instead of cutting neli8 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun] ([it]cn: racism[rt]). It looks like there's additional text as well."
+
+After taking landmine8 when landmine8 was not handled:
+	now the printed name of landmine8 is "SN96-2 acquired at 7,6";
+	move landmine8 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli8 the first time:
+	change the north exit of Pulli8 to nowhere;
+	change the southwest exit of Pulli8 to nowhere;
+	change the east exit of Pulli8 to nowhere;
+	change the northwest exit of Pulli8 to nowhere;
+	change the south exit of Pulli8 to nowhere;
+	change the southwest exit of Pulli8 to nowhere;
+	change the west exit of Pulli8 to nowhere;	
+	change the northwest exit of Pulli8 to nowhere.
+
+Instead of continuing while the player is in Pulli8:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli9.
+
+Section 9 - Pulli9
+
+The description of Pulli9 is "[if unvisited]A slippery indentation here is flooded with a murky brown fluid.[otherwise]Your fingers wade through a flood of brown fluid."
+
+Neli9 is a closed thing in Pulli9. The printed name of neli9 is "Nodule 9". Understand "Nodule 9" as neli9. The description is "A series of bumps[if neli9 is closed], one of them more prominent than the rest.[otherwise], the once-largest of them now whittled down to size."
+
+There is a landmine9 in neli9. The printed name of landmine9 is "Rangan 99-2". Understand "Rangan 99-2" as landmine9. The description is "[bt]7,7: Split Navigation and Rigor[rt][lb]If your first loop is shape type 4 in Lavannya Suressh's (2021) taxonomy, you can create closed loops around 54 nodes in under an hour. You arrive at a compilation of utterances that is incomplete but still 'a combinatorial game that pursues the possibilities implicit in its own material, independent of the personality of the poet [bk][unicode 0169][cb] a game that at a certain point is invested with an unexpected meaning' (Calvino, 1986, p. 20).[pb]What else the body has to say beyond that, across all 441 points, you can't say right now. And what she says by the end will vary, depending on how many nodes you call bombs. [note fkolam]"
+
+Instead of cutting neli9 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun]. It looks like there's additional text as well."
+
+After taking landmine9 when landmine9 was not handled:
+	now the printed name of landmine9 is "Rangan 99-2 acquired at 7,7";
+	move landmine9 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli9 the first time:
+	change the north exit of Pulli9 to nowhere;
+	change the southwest exit of Pulli9 to nowhere;
+	change the east exit of Pulli9 to nowhere;
+	change the northwest exit of Pulli9 to nowhere;
+	change the south exit of Pulli9 to nowhere;
+	change the southwest exit of Pulli9 to nowhere;
+	change the west exit of Pulli9 to nowhere;	
+	change the southeast exit of Pulli9 to nowhere.
+
+Instead of continuing while the player is in Pulli9:
+	say "You follow the path, passing several nodes to arrive at your destination.";
+	move the player to Pulli10.
+
+Section 10 - Pulli10
+
+The description of Pulli10 is "[if unvisited]The flesh here has a marbled appearance.[otherwise]On closer inspection, what you assumed was fat marbling is a hot, white light, tangible enough to build up in the flesh like adipose tissue."
+
+Neli10 is a closed thing in Pulli10. The printed name of neli10 is "Nodule 10". Understand "Nodule 10" as neli10. The description is "A tuberous growth [if neli10 is closed], like a tumor, if you didn't know any better.[otherwise], leaking a strange glow, in strands, like the tendrils of an anemone."
+
+There is a landmine10 in neli10. The printed name of landmine10 is "Type 72-1". Understand "Type 72-1" as landmine10. The description is "[bt]8,6: Design, Torture, Rigor[rt][lb]Elaine Scarry (1985) describes writing about torture: 'Place the injured body several inches in front of our eyes, hold the light up to the injured flesh, and keep steady the reader's head so that he cannot turn away' (p. 65)."
+
+Instead of cutting neli10 with hand auger:
+	now the noun is open;
+	now the noun is unopenable;
+		if the noun is open and the noun contains something,
+			say "The glowing orb is engraved: [list of things in the noun] ([it]cn: blood, cutting, torture[rt]). It looks like there's additional text as well."
+
+After taking landmine10 when landmine10 was not handled:
+	now the printed name of landmine10 is "Type 72-1 acquired at 8,6";
+	move landmine10 to player;
+	decrease the current hit points of the player by 1;
+	decrease the current hit points of Vali by 1;
+	say "You carefully excise the orb, pocketing it once its glow dissipates."
+
+After examining Pulli10 the first time:
+	change the north exit of Pulli10 to nowhere;
+	change the southwest exit of Pulli10 to nowhere;
+	change the east exit of Pulli10 to nowhere;
+	change the southeast exit of Pulli10 to nowhere;
+	change the south exit of Pulli10 to nowhere;
+	change the southwest exit of Pulli10 to nowhere;
+	change the west exit of Pulli10 to nowhere;	
+	change the southeast exit of Pulli10 to nowhere.
+
+Instead of continuing while the player is in Pulli10:
+	perform Ending A.
+
+Chapter 4 - Endings
+
+The chosen ending is an object which varies. An ending is a kind of thing. An ending has a text called the name. An ending has some text called the content. 
+
+To choose an ending:
+	if the current hit points of the player is greater than 5:
+		perform Ending B;
+	otherwise:
+		perform Ending A.
+		
+To perform (ending - an ending):
+	now the chosen ending is the ending;
+	say content of the chosen ending;
+	end the story finally;
+
+The new print the final question rule is listed instead of the print the final question rule in before handling the final question.
+
+Section 1 - Vali Revives
+
+Ending A is an ending. The name of Ending A is "A". The content of Ending A is "[lb]A deep abdominal muscle twitches under your fingertips. Without warning, the shakti you've been chasing from nodule to nodule suffuses Vali's interior. Hastily, you yank your hand back, but too late: light coats your fingers in sticky tendrils and wraps your hand into a closed fist.[pb]Somehow, you're yoked to her illuminated interior by a glowing, greasy cord that burns your skin as it snakes up your arm, dragging you inexorably back inside her. You pull back, and the motion pulls her upright.[pb]The anesthesia is supposed to hold until a counteracting substance is administered, but Vali's eyes are open and staring, staring, staring, until they go from blank to focused on you, until you feel your gut flare with heat. Tissue that you'd cut loose from her abdominal wall dribbles out of her.[pb]Too late again, you realize this is why knowledge is tightly policed: for the reader's protection, and for your own. Otherwise, the researcher risks absorbing the contraband materials of insurgency [unicode 8212] as you have.[pb]No one ever told you the object of study might fight for its subjectivity and appropriate your essence in turn. No doubt you'll be coded deviant now. You pull harder as the light draws you closer, until the tether suddenly snaps, and you fall to the floor, hard. You feel a rush of warmth at the back of your skull. The ceiling mirror reflects a halo of blood spreading on the tile floor around your head.[pb]As the darkness washes over you, you're grateful. You haven't seen enough to be persuaded that it isn't better to be dead than to be contagious, to have to live like someone like her.[pb][bt]THE END[rt][pb]"
+
+Section 2 - The Player Replaces Vali
+
+Ending B is an ending. The name of Ending B is "B". The content of Ending B is "[lb]Your eyes are already open, dry and stinging, when you wake up. Lines of heat viciously throb throughout your abdomen. You instinctively try to press a soothing hand to it, but you can't move. Above you, a giant mirror reflects the world upside-down and in miniature: your naked body stretched out on a table; your abdomen a gaping red flower, skin flaps peeled back and pinned down into fractal petals; your legs gracelessly akimbo; your face slack.[pb]You've seen this before, haven't you? Only in this perspective, a digital voice recorder dangles under you, and the white-coated surgeon who cracks your rib cage [unicode 8212] ignoring the muffled screams that surely can't be yours [unicode 8212] doesn't seem to realize that once he releases your bones, gravity will take them.[pb]You have a frenzied urge to warn him, to assist in the procedure and prove your worthiness. You must be making noises. For a moment, he bends his ear to your lips, then picks up a pair of thick-bladed scissors and cancels your protests by cutting out your lungs. As your pleas and screams deflate into a familiar wheeze, you hear a click, then his voice, intoning words you swear you've heard before:[pb]'12:47 p.m., Wednesday, June 26th. Commencing perimortem autopsy on dissident subject [']Doe['], identification pending, charged with acts of terrorism, affective contagion, trespass, vandalism, attempted theft of institutional secrets, and various other offenses against medical and academic institutions...'[pb][bt]THE END[rt][pb]" 
+
+Section 3 - Print the Final Question
+
+This is the new print the final question rule:
+	say "To the player who achieved this ending:[pb]My C&W keynote address was meant to be experienced like this, but the game wasn't ready for release at the time. It still isn't. This demo-excerpt is a prototype. As such, there are fewer options and endings and some of the material lacks the nuance the full version will have; and though I tried my best, the text may not be error-free. That said, I understand the presence of errors as conducive to the text's themes: a reenactment of my embodied 'runtime errors' and 'debugging' processes in  diasporic-disabled digital composition.[lb]I hope this text provokes conversations about what digital composition can do and be, scholarly legitimacy, and the hierarchization of forms of BIPOC pain in the field.[lb]No one is owed the brilliance of our ghosts. It is something to be earned.[lb]'Vali'[lb][pb][bt]RESTART? [unicode 8212] RESTORE? [unicode 8212] QUIT?[rt][lb]".
